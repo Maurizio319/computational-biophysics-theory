@@ -1,3 +1,4 @@
+% !TeX root = principal.tex
 \input{prefix}
 
 \title{\Huge\textbf{{Computational biophysics}}}
@@ -15,8 +16,8 @@
 
   \maketitle
   \tableofcontents
-
   \part{Computational Biophysics - Lattanzi}
+  \input{chapters/questions/questions_tuckerman.tex} %#TODO move to the bottom
   \input{chapters/01/intro-proteins}
   \input{chapters/02/protein-geometry}
   \input{chapters/03/force-fields}
@@ -36,10 +37,13 @@
   \input{chapters/17/monte-carlo}
   \input{chapters/18/free-energy-calculations}
   \input{chapters/19/rare-events}
-  \input{chapters/20/advanced-methods}
+  \input{chapters/20/advanced-methods} 
 
   % Potestio lessons
-  \part{Multi-Scale methods in soft matter physics}
-  \input{potestio_lectures/chapters/3-real-sys.tex}
+  \part{Multi-Scale methods in soft matter physics - Potestio}
+  % \input{potestio_lectures/chapters/3-real-sys.tex}
+  \input{chapters/questions/questions_potestio.tex}
+  
+  \part{Additions}
 
 \end{document}

@@ -199,7 +199,7 @@ Constraining the total kinetic energy to be constant.
 This is a nonholonomic constraint.
 
 	\subsection{Differential forms}
-	These constraints can be written in a differential form, defined as:
+	the constraints can be built into the action formalism using the method of Lagrange undetermined multipliers. However, in order to apply this method, the constraint conditions must be expressible in a differential form as:
 
 	$$\sum\limits_{\alpha = 1}^{3N} a_{k\alpha}dq_\alpha + a_{kt}dt = 0\qquad k = 1, \dots, N_C$$
 
@@ -207,12 +207,12 @@ This is a nonholonomic constraint.
 	$\alpha$ refers to the coordinates ant $k$ to the constraints.
 
 		\subsubsection{Holomonic constraints}
-		Going from their equation to their differential form, taking the derivative of the holonomic constraint equation:
+		You can obtain the coefficients written above by taking the derivatives of the constraints with respect to the components.
 
 		$$\sum\limits_{\alpha=1}^{3N}\frac{\partial\sigma_k}{\partial q_\alpha}dq_\alpha + \frac{\partial\sigma_k}{\partial t} dt = 0\qquad k = 1, \dots, N_N\qquad a_{k\alpha} = \frac{\partial\sigma_k}{\partial q_\alpha}\qquad a _{kt} = \frac{\partial\sigma_k}{\partial t}$$
 
 		\subsubsection{Nonholonomic constraints}
-		For nonholonomic constraints is easy for some exception, for example on the one on kinetic energy:
+		Non holonomic constraints can be written some times in the differentiable form, but those are exceptions. For example on the one on kinetic energy:
 
 		$$\frac{1}{2}\sum\limits_i m_i\dot{\vec{r}}_i^2 - C = 0\Rightarrow\frac{1}{2}\sum\limits_i m_i\dot{\vec{r}}_i\frac{d\vec{r}_i}{dt} - C = 0\Rightarrow\frac{1}{2}\sum\limits_i m_i\dot{\vec{r}}_id\vec{r}_i-Cdt = 0$$
 
@@ -318,7 +318,7 @@ This is a nonholonomic constraint.
 
 		Now adding the guess to the initial formula:
 
-		$$\sigma_l\biggl(\vec{r}_1^{(1)} = \frac{1}{m_1}\sum\limits_k\delta\tilde{\lambda}_k\nabla_1\sigma_k(0), \dots, \vec{r}_N^{(1)} + \frac{1}{m_N}\sum\limits_{k}\delta\tilde{\lambda}_k\nabla_N\sigma_k(0)\biggr) = 0$$
+		$$\sigma_l\biggl(\vec{r}_1^{(1)} + \frac{1}{m_1}\sum\limits_k\delta\tilde{\lambda}_k\nabla_1\sigma_k(0), \dots, \vec{r}_N^{(1)} + \frac{1}{m_N}\sum\limits_{k}\delta\tilde{\lambda}_k\nabla_N\sigma_k(0)\biggr) = 0$$
 
 		And the Taylor expansion is performed assuming a small $\delta\tilde{\lambda}$ to be small and stopping at the first term (linearising the equation):
 

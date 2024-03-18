@@ -3,7 +3,97 @@
 \begin{enumerate}
     \item Chapter 1
     \begin{itemize}
+        \item what is a phase space?
+        \item write lagrangian
+        \item what is the euler lagrange equation
+        \item what is a lagandre transformation? what is  an hamiltonian in that sense?
+        \item explain H. equations of motion
+        \item write derivative of H with respect to time 
+        \item what does the constant energy surface mean?
+        \item How do you compute the work needed for the passage between a state to another?
+        \item How does simmetries, implied by the Hamilton's conservation, are written? Poisson brackets
+        \item What happens if a quantity included in a Poisson bracket is conserved over time? The poisson bracket becomes 0
+        \item What happens if you translate all the coordinates of a system by a value $a$? You generate the translation group, which is made of all the configurations that maintain the Hamiltonian
+        \item What conservation law is associated to that invariance? Noether's theorem 
+        \item What does it mean that the Hamiltonian is incompressible? There will be no source of sinks or sources for the flow. This type of condition can be expressed as it is done in hydrodynamics. Given that a vector in the phase space is
+
+        $$
+        x = (q_1, q_{3N} \dots p_1, p_{3N})
+        $$
+
+        you can take the derivative which has the form
+        $$
+        \eta (x) = \left(\frac{\partial H}{\partial p_1} \dots \frac{\partial H}{\partial p_{3N}}, \frac{\partial H}{\partial q_1} \dots \frac{\partial H}{\partial q_{3N}}\right) 
+        $$
+
+        The uncompressibility condition means that 
+
+        $$
+        \Delta_x \dot{x}(x) = 0
+        $$
+
+        \item What is the symplectic property? Quantities like the Hamilton's equations can be written as follows:
+        $$
+        \dot{x} = M \frac{\partial H}{\partial x},
+        $$
+        where M is like 
+
+        $$
+        M = \begin{pmatrix} 0 & I\\ -I & 0\end{pmatrix}
+        $$
+
+        The symplectic property is written as follows:
+
+        $$M = J^TMJ$$
+
+        where J indicates the Jacobian matrix values.
+        
+
+        \item What is a Fourier expansion? \ref{chap: fourier}
+        \item What are normal modes in a polymer? Each normal mode corresponds to a specific pattern of motion in which all parts of the system move sinusoidally with the same frequency. These modes are "normal" in the sense that they are independent of each other and form a complete set of orthogonal functions.
+        \item What is an action integral? what does it mean if it is stationary? what it is possible to say about that path?
+        \item what are holonomic and non holonomic constraints?
+        \item what happens to the n of degrees of freedom?
+        \item What are Lagrange multipliers? \ref{chap: lagrange}
+        \item How could be the constraints expressed?
+        \item what equations should be satisfied in a way that the constraints are followed in time?
+        \item How can you write the hamilton's equations to follow all the conditions?
+        \item Is the hamiltonian conserved when a series of time-independent holonomic constraints are applied?
+        \item How are constraints inserted in a simulation? as forces
+        \item How does the Velocity Verlet change? A new force term is added
+        \item How are the Lagrange multipliers found in this case? You take the taylor expansion to the first derivative of the constraint formulaton given after a certain time $\Delta t$, then you apply one of the methods listed below
+        \item Describe and list some of the methods used to produce the $\tilde{\lambda_k}$ Lagrange multipliers
+        \item What are non-Hamiltonian systems?
+        \item What happens if the compressibility is negative to the phase space?
         \item 
+    \end{itemize}
+
+    \item Chapter 2
+    \begin{itemize}
+        \item Why it is impossible to classically solve the dynamics of a biological system? Sheer size and Loschmidt's paradox
+        \item How are quantities computed in statistical mechanics?
+        \item What is an ensemble?
+        \item What is a thermodynamic system?
+        \item What is a thermodynamic equilibrium?
+        \item What are the fundamental thermodynamic parameters?
+        \item What is an equation of state? for an ideal gas?
+        \item What is a thermodynamic transformation
+        \item What is a state function? “state function is any function $f(n,P,V,T)$ whose change under any thermodynamic transformation depends only on the initial and final states of the transformation and not on the particular thermodynamic path taken” (Tuckerman, 2015)
+        \item Write the work that you need to change the number of particles or the value of the volume
+        \item What is the chamical potential?
+        \item How do you write the heat needed to have a certain change in temperature?
+        \item list the 3 thermodynamic laws
+        \item talk about the first
+        \item talk about the second
+        \item talk about the third
+        \item What is an ensemble? How do you calculate averages in an ensemble?
+        \item What does the Liouville theorem say?
+        \item Explain whait is the ensamble distribution function
+        \item In what conditions does it stay stationary?
+        \item How can you write the calculation of a quantity if the dependence of the ensemble distributino function from time is 0?
+
+
+    
     \end{itemize}
 
 \end{enumerate}

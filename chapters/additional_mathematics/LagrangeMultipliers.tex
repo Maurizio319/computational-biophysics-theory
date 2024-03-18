@@ -1,0 +1,30 @@
+\section{Lagrange multipliers}\label{chap: lagrange}
+
+Given that you have a closed curve that you have to optimize, and a constraint to respect, the point of maximum is that where the two curves touch. In that point, the gradient of the two functions ($f(x, y)$ and $g(x, y)$) has the same direction.
+
+With one constraint. Let  $f$ and  $g$ be functions of two variables with continuous partial derivatives at every point of some open set containing the smooth curve  $g(x,y)=0$. Suppose that  $f$, when restricted to points on the curve  $g(x,y)=0$, has a local extremum at the point $(x_0,y_0)$ and that  $\vec{\nabla} g(x_0, y_0) \neq 0$. Then there is a number  $\lambda$ called a Lagrange multiplier, for which
+
+$$
+\vec{\nabla} f(x_0, y_0) = \lambda \vec{\nabla} g(x_0, y_0)
+$$
+
+(Remember that a gradient is a vector realized in the following way:)
+
+\begin{equation}\label{eq: gradient}
+  \vec{\nabla} g = \frac{\partial g}{\partial x} \hat{i} + \frac{\partial g}{\partial y} \hat{j} + \frac{\partial g}{\partial z} \hat{k}
+\end{equation}
+
+In general, you should follow the following passages:
+\begin{enumerate}
+  \item Determine the objective function  $f(x,y)$ and the constraint function  $g(x,y)$. Does the optimization problem involve maximizing or minimizing the objective function?
+  \item Solve the equation $\vec{\nabla} f(x_0, y_0) = \lambda \vec{\nabla} g(x_0, y_0)$ given that $g(x_0, y_0) = 0$
+  \item Solve for $x_0$ and $y_0$.
+  \item The smallest values minimize $f$, while instead the bigger values maximize it.
+\end{enumerate}
+
+When you have two constraints, what happens is that you have the following
+\begin{align*}
+  &\vec{\nabla} f(x_0, y_0, z_0) = \lambda_1 \vec{\nabla} g(x_0, y_0, z_0) + \lambda_2 \vec{\nabla} h(x_0, y_0, z_0) \\
+  &g(x_0, y_0, z_0) = 0 \\
+  &h(x_0, y_0, z_0) = 0
+\end{align*}

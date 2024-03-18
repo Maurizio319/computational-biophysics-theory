@@ -1,6 +1,6 @@
 PWD /home/maurizio/Documents/GitHub/computational-biophysics-theory
 INPUT /home/maurizio/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/maurizio/Documents/GitHub/computational-biophysics-theory/principal.tex
+INPUT /home/maurizio/Desktop/computational-biophysics-theory/principal.tex
 OUTPUT principal.log
 INPUT ./prefix.tex
 INPUT ./prefix.tex
@@ -796,6 +796,12 @@ INPUT ./chapters/questions/questions_potestio.tex
 INPUT ./chapters/questions/questions_potestio.tex
 INPUT chapters/questions/questions_potestio.tex
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT ./chapters/additional_mathematics/Fourier_series.tex
+INPUT ./chapters/additional_mathematics/Fourier_series.tex
+INPUT chapters/additional_mathematics/Fourier_series.tex
+INPUT ./chapters/additional_mathematics/LagrangeMultipliers.tex
+INPUT ./chapters/additional_mathematics/LagrangeMultipliers.tex
+INPUT chapters/additional_mathematics/LagrangeMultipliers.tex
 INPUT principal.aux
 INPUT ./principal.out
 INPUT ./principal.out
@@ -833,6 +839,8 @@ INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex1
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
+INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
+INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb

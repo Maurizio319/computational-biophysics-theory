@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710414749 "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" "formulae.pdf" "formulae" 1710414753 0
+["pdflatex"] 1710692624 "/home/maurizio/Desktop/computational-biophysics-theory/formulae/formulae.tex" "formulae.pdf" "formulae" 1710692626 0
   "/home/maurizio/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1710414164 125478 55f56c7fb700bc9b88343d0cd0367c5e ""
   "/home/maurizio/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1700904399 24209861 330b2285ebc1741da95b8b92c54ba19f ""
   "/home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1700898668 1004 54797486969f23fa377b128694d548df ""
@@ -131,9 +131,8 @@
   "/home/maurizio/.miktex/texmfs/install/tex/latex/tools/calc.sty" 1700898694 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "/home/maurizio/.miktex/texmfs/install/tex/latex/tools/multicol.sty" 1700898694 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "/home/maurizio/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1700898709 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" 1710412648 76992 6b391d039bb2d88daf3c07f28fdfd709 ""
-  "formulae.aux" 1710414753 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "formulae.tex" 1710412648 76992 6b391d039bb2d88daf3c07f28fdfd709 ""
+  "/home/maurizio/Desktop/computational-biophysics-theory/formulae/formulae.tex" 1710412648 76992 6b391d039bb2d88daf3c07f28fdfd709 ""
+  "formulae.aux" 1710692626 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
   (generated)
   "formulae.aux"
   "formulae.log"

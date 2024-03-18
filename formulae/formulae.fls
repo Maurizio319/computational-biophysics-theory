@@ -1,6 +1,6 @@
 PWD /home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae
 INPUT /home/maurizio/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex
+INPUT /home/maurizio/Desktop/computational-biophysics-theory/formulae/formulae.tex
 OUTPUT formulae.log
 INPUT /home/maurizio/.miktex/texmfs/install/tex/latex/base/article.cls
 INPUT /home/maurizio/.miktex/texmfs/install/tex/latex/base/article.cls

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  18 MAR 2024 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  23 MAR 2024 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,7 +827,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 ...ine {3.5}Parametrization}{34}{section.3.5}
+l.54 ...ine {3.5}Parametrization}{35}{section.3.5}
                                                   % [1
 
 ] [2] [3] [4] [5] [6])
@@ -841,26 +841,26 @@ l.54 ...ine {3.5}Parametrization}{34}{section.3.5}
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-[9] [10]) (chapters/01/intro-proteins.tex [11]
+[9] [10] [11]) (chapters/01/intro-proteins.tex [12]
 Chapter 1.
-[12
+[13
 
-]) (chapters/02/protein-geometry.tex [13]
+]) (chapters/02/protein-geometry.tex [14]
 Chapter 2.
-<chapters/02/images/planar.png, id=1495, 1316.92pt x 629.35126pt>
+<chapters/02/images/planar.png, id=1501, 1316.92pt x 629.35126pt>
 File: chapters/02/images/planar.png Graphic file (type png)
 <use chapters/02/images/planar.png>
 Package pdftex.def Info: chapters/02/images/planar.png  used on input line 16.
 (pdftex.def)             Requested size: 433.62pt x 207.2256pt.
-[14
+[15
 
 ]
-<chapters/02/images/potential.png, id=1502, 725.71124pt x 623.32875pt>
+<chapters/02/images/potential.png, id=1508, 725.71124pt x 623.32875pt>
 File: chapters/02/images/potential.png Graphic file (type png)
 <use chapters/02/images/potential.png>
 Package pdftex.def Info: chapters/02/images/potential.png  used on input line 40.
 (pdftex.def)             Requested size: 216.81pt x 186.22014pt.
- [15 <./chapters/02/images/planar.png>]
+ [16 <./chapters/02/images/planar.png>]
 
 Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                release.
@@ -871,69 +871,69 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                
 (siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
 
-[16 <./chapters/02/images/potential.png>]
-<chapters/02/images/rama_map.png, id=1520, 1116.17pt x 743.77875pt>
+[17 <./chapters/02/images/potential.png>]
+<chapters/02/images/rama_map.png, id=1526, 1116.17pt x 743.77875pt>
 File: chapters/02/images/rama_map.png Graphic file (type png)
 <use chapters/02/images/rama_map.png>
 Package pdftex.def Info: chapters/02/images/rama_map.png  used on input line 99.
 (pdftex.def)             Requested size: 334.85358pt x 223.13535pt.
-<chapters/02/images/ramachandran-complex.png, id=1522, 659.46375pt x 413.545pt>
+<chapters/02/images/ramachandran-complex.png, id=1528, 659.46375pt x 413.545pt>
 File: chapters/02/images/ramachandran-complex.png Graphic file (type png)
 <use chapters/02/images/ramachandran-complex.png>
 Package pdftex.def Info: chapters/02/images/ramachandran-complex.png  used on input line 109.
 (pdftex.def)             Requested size: 197.84064pt x 124.06445pt.
- [17 <./chapters/02/images/rama_map.png>]
-<chapters/02/images/ala-gly-theo.png, id=1534, 652.4375pt x 376.40625pt>
+ [18 <./chapters/02/images/rama_map.png>]
+<chapters/02/images/ala-gly-theo.png, id=1541, 652.4375pt x 376.40625pt>
 File: chapters/02/images/ala-gly-theo.png Graphic file (type png)
 <use chapters/02/images/ala-gly-theo.png>
 Package pdftex.def Info: chapters/02/images/ala-gly-theo.png  used on input line 118.
 (pdftex.def)             Requested size: 195.73276pt x 112.92273pt.
-<chapters/02/images/ramachandran-final.png, id=1536, 602.25pt x 365.365pt>
+<chapters/02/images/ramachandran-final.png, id=1543, 602.25pt x 365.365pt>
 File: chapters/02/images/ramachandran-final.png Graphic file (type png)
 <use chapters/02/images/ramachandran-final.png>
 Package pdftex.def Info: chapters/02/images/ramachandran-final.png  used on input line 129.
 (pdftex.def)             Requested size: 180.67639pt x 109.61034pt.
- [18 <./chapters/02/images/ramachandran-complex.png> <./chapters/02/images/ala-gly-theo.png> <./chapters/02/images/ramachandran-final.png>]
-<chapters/02/images/ala_gly.png, id=1549, 1370.11874pt x 653.44125pt>
+ [19 <./chapters/02/images/ramachandran-complex.png> <./chapters/02/images/ala-gly-theo.png> <./chapters/02/images/ramachandran-final.png>]
+<chapters/02/images/ala_gly.png, id=1555, 1370.11874pt x 653.44125pt>
 File: chapters/02/images/ala_gly.png Graphic file (type png)
 <use chapters/02/images/ala_gly.png>
 Package pdftex.def Info: chapters/02/images/ala_gly.png  used on input line 143.
 (pdftex.def)             Requested size: 433.62pt x 206.80223pt.
-<chapters/02/images/contact.png, id=1551, 1340.00626pt x 849.1725pt>
+<chapters/02/images/contact.png, id=1557, 1340.00626pt x 849.1725pt>
 File: chapters/02/images/contact.png Graphic file (type png)
 <use chapters/02/images/contact.png>
 Package pdftex.def Info: chapters/02/images/contact.png  used on input line 170.
 (pdftex.def)             Requested size: 433.62pt x 274.78572pt.
- [19 <./chapters/02/images/ala_gly.png>]
-<chapters/02/images/topology.png, id=1560, 1514.65875pt x 778.91pt>
+ [20 <./chapters/02/images/ala_gly.png>]
+<chapters/02/images/topology.png, id=1566, 1514.65875pt x 778.91pt>
 File: chapters/02/images/topology.png Graphic file (type png)
 <use chapters/02/images/topology.png>
 Package pdftex.def Info: chapters/02/images/topology.png  used on input line 193.
 (pdftex.def)             Requested size: 433.62pt x 222.99pt.
- [20 <./chapters/02/images/contact.png>] [21 <./chapters/02/images/topology.png>] [22]
-<chapters/02/images/rmsd.png, id=1576, 1161.33875pt x 809.0225pt>
+ [21 <./chapters/02/images/contact.png>] [22 <./chapters/02/images/topology.png>] [23]
+<chapters/02/images/rmsd.png, id=1582, 1161.33875pt x 809.0225pt>
 File: chapters/02/images/rmsd.png Graphic file (type png)
 <use chapters/02/images/rmsd.png>
 Package pdftex.def Info: chapters/02/images/rmsd.png  used on input line 268.
 (pdftex.def)             Requested size: 348.40431pt x 242.70862pt.
- [23 <./chapters/02/images/rmsd.png>]) (chapters/03/force-fields.tex [24]
+ [24 <./chapters/02/images/rmsd.png>]) (chapters/03/force-fields.tex [25]
 Chapter 3.
-[25
+[26
 
 ]
-<chapters/03/images/chem-bond.png, id=1595, 311.1625pt x 280.04625pt>
+<chapters/03/images/chem-bond.png, id=1601, 311.1625pt x 280.04625pt>
 File: chapters/03/images/chem-bond.png Graphic file (type png)
 <use chapters/03/images/chem-bond.png>
 Package pdftex.def Info: chapters/03/images/chem-bond.png  used on input line 44.
 (pdftex.def)             Requested size: 216.81pt x 195.12938pt.
- [26 <./chapters/03/images/chem-bond.png>] [27]
-<chapters/03/images/valence-angle-bending.png, id=1614, 285.065pt x 270.00874pt>
+ [27 <./chapters/03/images/chem-bond.png>] [28]
+<chapters/03/images/valence-angle-bending.png, id=1620, 285.065pt x 270.00874pt>
 File: chapters/03/images/valence-angle-bending.png Graphic file (type png)
 <use chapters/03/images/valence-angle-bending.png>
 Package pdftex.def Info: chapters/03/images/valence-angle-bending.png  used on input line 123.
 (pdftex.def)             Requested size: 130.08731pt x 123.21672pt.
- [28 <./chapters/03/images/valence-angle-bending.png>]
-<chapters/03/images/torsions.png, id=1625, 822.07124pt x 327.2225pt>
+ [29 <./chapters/03/images/valence-angle-bending.png>]
+<chapters/03/images/torsions.png, id=1631, 822.07124pt x 327.2225pt>
 File: chapters/03/images/torsions.png Graphic file (type png)
 <use chapters/03/images/torsions.png>
 Package pdftex.def Info: chapters/03/images/torsions.png  used on input line 167.
@@ -943,34 +943,34 @@ Overfull \hbox (10.6653pt too wide) in paragraph at lines 179--180
 []\T1/cmr/m/n/10 All the pos-si-ble groups of $\OT1/cmr/m/n/10 4$ \T1/cmr/m/n/10 atoms, con-sid-er-ing per-mu-ta-tions and rep-e-ti-tions need to be parametrized
  []
 
-<chapters/03/images/improper-torsions.png, id=1627, 814.04124pt x 231.86626pt>
+<chapters/03/images/improper-torsions.png, id=1633, 814.04124pt x 231.86626pt>
 File: chapters/03/images/improper-torsions.png Graphic file (type png)
 <use chapters/03/images/improper-torsions.png>
 Package pdftex.def Info: chapters/03/images/improper-torsions.png  used on input line 185.
 (pdftex.def)             Requested size: 433.62pt x 123.50766pt.
-[29 <./chapters/03/images/torsions.png>]
-<chapters/03/images/van-der-waals.png, id=1637, 554.07pt x 414.54875pt>
+[30 <./chapters/03/images/torsions.png>]
+<chapters/03/images/van-der-waals.png, id=1644, 554.07pt x 414.54875pt>
 File: chapters/03/images/van-der-waals.png Graphic file (type png)
 <use chapters/03/images/van-der-waals.png>
 Package pdftex.def Info: chapters/03/images/van-der-waals.png  used on input line 214.
 (pdftex.def)             Requested size: 216.81pt x 162.21101pt.
- [30 <./chapters/03/images/improper-torsions.png>] [31 <./chapters/03/images/van-der-waals.png>] [32]
-<chapters/03/images/dipolar-interactions.png, id=1661, 779.91376pt x 319.1925pt>
+ [31 <./chapters/03/images/improper-torsions.png>] [32 <./chapters/03/images/van-der-waals.png>] [33]
+<chapters/03/images/dipolar-interactions.png, id=1667, 779.91376pt x 319.1925pt>
 File: chapters/03/images/dipolar-interactions.png Graphic file (type png)
 <use chapters/03/images/dipolar-interactions.png>
 Package pdftex.def Info: chapters/03/images/dipolar-interactions.png  used on input line 298.
 (pdftex.def)             Requested size: 433.62pt x 177.46564pt.
- [33 <./chapters/03/images/dipolar-interactions.png>] [34]) (chapters/04/classical-mechanics.tex [35]
+ [34 <./chapters/03/images/dipolar-interactions.png>] [35]) (chapters/04/classical-mechanics.tex [36]
 Chapter 4.
-[36
+[37
 
-] [37] [38] [39] [40] [41] [42] [43] [44] [45]) (chapters/05/foundations-statistical-mechanics.tex [46]
+] [38] [39] [40] [41] [42] [43] [44] [45] [46]) (chapters/05/foundations-statistical-mechanics.tex [47]
 Chapter 5.
-[47
+[48
 
-] [48] [49] [50] [51] [52] [53]) (chapters/06/microcanonical-ensemble.tex [54]
+] [49] [50] [51] [52] [53] [54]) (chapters/06/microcanonical-ensemble.tex [55]
 Chapter 6.
-[55
+[56
 
 ]
 Overfull \hbox (14.66551pt too wide) in paragraph at lines 71--78
@@ -984,15 +984,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
 
-[56] [57] [58] [59] [60] [61] [62]) (chapters/07/molecular-dynamics.tex [63]
+[57] [58] [59] [60] [61] [62] [63]) (chapters/07/molecular-dynamics.tex [64]
 Chapter 7.
-[64
+[65
 
-] [65] [66] [67] [68] [69] [70] [71]) (chapters/08/direct-translation.tex [72]
+] [66] [67] [68] [69] [70] [71] [72]) (chapters/08/direct-translation.tex [73]
 Chapter 8.
-[73
+[74
 
-] [74]
+] [75]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 86.
@@ -1017,42 +1017,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 86.
 
-[75] [76] [77]
+[76] [77] [78]
 Overfull \hbox (4.16992pt too wide) detected at line 219
 []
  []
 
-[78]) (chapters/09/evaluation-energy-forces.tex [79]
+[79]) (chapters/09/evaluation-energy-forces.tex [80]
 Chapter 9.
-[80
+[81
 
-] [81] [82] [83] [84] [85]
+] [82] [83] [84] [85] [86]
 Underfull \hbox (badness 6220) in paragraph at lines 247--248
 []\T1/cmr/m/n/10 Maxwell equa-tion molec-u-lar dy-nam-ics
  []
 
-) (chapters/10/canonical-ensemble.tex [86]
+) (chapters/10/canonical-ensemble.tex [87]
 Chapter 10.
-[87
+[88
 
-] [88] [89] [90] [91]
+] [89] [90] [91] [92]
 Overfull \hbox (37.06064pt too wide) detected at line 234
 []
  []
 
-[92]) (chapters/11/thermostats.tex [93]
+[93]) (chapters/11/thermostats.tex [94]
 Chapter 11.
-[94
+[95
 
-] [95] [96] [97]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.1638pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.1638pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.1638pt}.
-
-[98]
+] [96] [97] [98]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.1638pt, for example:
@@ -1068,24 +1060,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.1638pt}.
 
-[100] [101] [102] [103] [104]
+[100]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.1638pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.1638pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.1638pt}.
+
+[101] [102] [103] [104] [105]
 Overfull \hbox (45.26915pt too wide) detected at line 502
 \OML/cmm/m/it/10 ^^N[]\OMS/cmsy/m/n/10 H\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) + [] [] + \OML/cmm/m/it/10 dNkT^^Q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 kT^^Q[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 C[][] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^Q[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^Q[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 ^^Q[] \OT1/cmr/m/n/10 = [][]\OML/cmm/m/it/10 C[] \OMS/cmsy/m/n/10 ^^@ H\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] [] ^^@ \OML/cmm/m/it/10 kT^^Q[][]
  []
 
-[105]) (chapters/12/isobaric-ensembles.tex [106]
+[106]) (chapters/12/isobaric-ensembles.tex [107]
 Chapter 12.
-[107
+[108
 
-] [108]
+] [109]
 
 Package caption Warning: \label without proper reference on input line 118.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:isobar' on page 109 undefined on input line 113.
+LaTeX Warning: Reference `fig:isobar' on page 110 undefined on input line 113.
 
-<chapters/12/images/isobar.png, id=2043, 513.92pt x 486.81876pt>
+<chapters/12/images/isobar.png, id=2049, 513.92pt x 486.81876pt>
 File: chapters/12/images/isobar.png Graphic file (type png)
 <use chapters/12/images/isobar.png>
 Package pdftex.def Info: chapters/12/images/isobar.png  used on input line 117.
@@ -1095,28 +1095,28 @@ Overfull \hbox (8.67249pt too wide) detected at line 135
 \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N; V; T\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 C[] [] dx[]dx[]e[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N; N[]; N[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C[] [] dx[]e[]C[] [] dx[]e[]
  []
 
-[109]
+[110]
 Overfull \hbox (19.63513pt too wide) detected at line 150
 \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = []\OML/cmm/m/it/10 C[]e[]C[] [] dx[]e[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N; N[]; N[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C[]e[]
  []
 
-[110 <./chapters/12/images/isobar.png>]
+[111 <./chapters/12/images/isobar.png>]
 Overfull \hbox (18.27873pt too wide) detected at line 191
 \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 PV\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 = [] = \OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]
  []
 
-[111]
-<chapters/12/images/maxwell_square.png, id=2059, 594.22pt x 585.18625pt>
+[112]
+<chapters/12/images/maxwell_square.png, id=2065, 594.22pt x 585.18625pt>
 File: chapters/12/images/maxwell_square.png Graphic file (type png)
 <use chapters/12/images/maxwell_square.png>
 Package pdftex.def Info: chapters/12/images/maxwell_square.png  used on input line 240.
 (pdftex.def)             Requested size: 59.42548pt x 58.52205pt.
- [112 <./chapters/12/images/maxwell_square.png>] [113] [114] [115]) (chapters/13/grand-canonical-ensemble.tex [116]
+ [113 <./chapters/12/images/maxwell_square.png>] [114] [115] [116]) (chapters/13/grand-canonical-ensemble.tex [117]
 Chapter 13.
-[117
+[118
 
-] [118]
-<chapters/13/images/grand.png, id=2092, 521.95pt x 486.81876pt>
+] [119]
+<chapters/13/images/grand.png, id=2098, 521.95pt x 486.81876pt>
 File: chapters/13/images/grand.png Graphic file (type png)
 <use chapters/13/images/grand.png>
 Package pdftex.def Info: chapters/13/images/grand.png  used on input line 82.
@@ -1126,283 +1126,283 @@ Overfull \hbox (32.25241pt too wide) detected at line 102
 \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N; V; T\OT1/cmr/m/n/10 ) = [][] [] \OML/cmm/m/it/10 dx[]e[][] [] dx[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]; V[]; T\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]; V[]; T\OT1/cmr/m/n/10 )
  []
 
-[119 <./chapters/13/images/grand.png>] [120] [121] [122]) (chapters/14/uncertainties-sampling-quality.tex [123]
+[120 <./chapters/13/images/grand.png>] [121] [122] [123]) (chapters/14/uncertainties-sampling-quality.tex [124]
 Chapter 14.
-[124
+[125
 
-] [125]
-<chapters/14/images/time-scales.png, id=2132, 567.11874pt x 400.49625pt>
+] [126]
+<chapters/14/images/time-scales.png, id=2139, 567.11874pt x 400.49625pt>
 File: chapters/14/images/time-scales.png Graphic file (type png)
 <use chapters/14/images/time-scales.png>
 Package pdftex.def Info: chapters/14/images/time-scales.png  used on input line 67.
 (pdftex.def)             Requested size: 226.84348pt x 160.19566pt.
- [126 <./chapters/14/images/time-scales.png>]
+ [127 <./chapters/14/images/time-scales.png>]
 Underfull \hbox (badness 5359) in paragraph at lines 99--102
 []\T1/cmr/m/n/10 Configurational dis-tance mea-sures like
  []
 
-<chapters/14/images/rmsd.png, id=2142, 481.8pt x 464.73625pt>
+<chapters/14/images/rmsd.png, id=2148, 481.8pt x 464.73625pt>
 File: chapters/14/images/rmsd.png Graphic file (type png)
 <use chapters/14/images/rmsd.png>
 Package pdftex.def Info: chapters/14/images/rmsd.png  used on input line 113.
 (pdftex.def)             Requested size: 195.12767pt x 188.21715pt.
-<chapters/14/images/all-to-all-rmsd.png, id=2143, 555.07375pt x 492.84125pt>
+<chapters/14/images/all-to-all-rmsd.png, id=2149, 555.07375pt x 492.84125pt>
 File: chapters/14/images/all-to-all-rmsd.png Graphic file (type png)
 <use chapters/14/images/all-to-all-rmsd.png>
 Package pdftex.def Info: chapters/14/images/all-to-all-rmsd.png  used on input line 121.
 (pdftex.def)             Requested size: 195.12767pt x 173.24902pt.
-<chapters/14/images/qualitative-behaviour.png, id=2146, 520.94624pt x 398.48875pt>
+<chapters/14/images/qualitative-behaviour.png, id=2152, 520.94624pt x 398.48875pt>
 File: chapters/14/images/qualitative-behaviour.png Graphic file (type png)
 <use chapters/14/images/qualitative-behaviour.png>
 Package pdftex.def Info: chapters/14/images/qualitative-behaviour.png  used on input line 138.
 (pdftex.def)             Requested size: 260.47249pt x 199.24388pt.
-[127 <./chapters/14/images/rmsd.png> <./chapters/14/images/all-to-all-rmsd.png>] [128 <./chapters/14/images/qualitative-behaviour.png>]
-<chapters/14/images/independent-simulations.png, id=2165, 539.01375pt x 515.9275pt>
+[128 <./chapters/14/images/rmsd.png> <./chapters/14/images/all-to-all-rmsd.png>] [129 <./chapters/14/images/qualitative-behaviour.png>]
+<chapters/14/images/independent-simulations.png, id=2171, 539.01375pt x 515.9275pt>
 File: chapters/14/images/independent-simulations.png Graphic file (type png)
 <use chapters/14/images/independent-simulations.png>
 Package pdftex.def Info: chapters/14/images/independent-simulations.png  used on input line 183.
 (pdftex.def)             Requested size: 215.60167pt x 206.36734pt.
-<chapters/14/images/equilibration.png, id=2167, 530.98375pt x 374.39874pt>
+<chapters/14/images/equilibration.png, id=2173, 530.98375pt x 374.39874pt>
 File: chapters/14/images/equilibration.png Graphic file (type png)
 <use chapters/14/images/equilibration.png>
 Package pdftex.def Info: chapters/14/images/equilibration.png  used on input line 193.
 (pdftex.def)             Requested size: 265.49121pt x 187.19891pt.
- [129 <./chapters/14/images/independent-simulations.png>]
-<chapters/14/images/equilibration-production.png, id=2177, 630.355pt x 367.3725pt>
+ [130 <./chapters/14/images/independent-simulations.png>]
+<chapters/14/images/equilibration-production.png, id=2183, 630.355pt x 367.3725pt>
 File: chapters/14/images/equilibration-production.png Graphic file (type png)
 <use chapters/14/images/equilibration-production.png>
 Package pdftex.def Info: chapters/14/images/equilibration-production.png  used on input line 205.
 (pdftex.def)             Requested size: 315.17673pt x 183.68579pt.
- [130 <./chapters/14/images/equilibration.png> <./chapters/14/images/equilibration-production.png>]
+ [131 <./chapters/14/images/equilibration.png> <./chapters/14/images/equilibration-production.png>]
 Overfull \hbox (1.92308pt too wide) detected at line 232
 [] \OMS/cmsy/m/n/10 ! []
  []
 
-[131]
-<chapters/14/images/autocorrelation-time.png, id=2194, 545.03625pt x 361.35pt>
+[132]
+<chapters/14/images/autocorrelation-time.png, id=2201, 545.03625pt x 361.35pt>
 File: chapters/14/images/autocorrelation-time.png Graphic file (type png)
 <use chapters/14/images/autocorrelation-time.png>
 Package pdftex.def Info: chapters/14/images/autocorrelation-time.png  used on input line 274.
 (pdftex.def)             Requested size: 327.02428pt x 216.81168pt.
- [132] [133 <./chapters/14/images/autocorrelation-time.png>]
-<chapters/14/images/block-length.png, id=2206, 726.715pt x 533.995pt>
+ [133] [134 <./chapters/14/images/autocorrelation-time.png>]
+<chapters/14/images/block-length.png, id=2212, 726.715pt x 533.995pt>
 File: chapters/14/images/block-length.png Graphic file (type png)
 <use chapters/14/images/block-length.png>
 Package pdftex.def Info: chapters/14/images/block-length.png  used on input line 309.
 (pdftex.def)             Requested size: 195.12767pt x 143.38206pt.
-<chapters/14/images/bse.png, id=2207, 738.76pt x 529.98pt>
+<chapters/14/images/bse.png, id=2213, 738.76pt x 529.98pt>
 File: chapters/14/images/bse.png Graphic file (type png)
 <use chapters/14/images/bse.png>
 Package pdftex.def Info: chapters/14/images/bse.png  used on input line 317.
 (pdftex.def)             Requested size: 195.12767pt x 139.98308pt.
-) (chapters/15/protein-motions.tex [134 <./chapters/14/images/block-length.png> <./chapters/14/images/bse.png>]
+) (chapters/15/protein-motions.tex [135 <./chapters/14/images/block-length.png> <./chapters/14/images/bse.png>]
 Chapter 15.
-<chapters/15/images/enm-theory.png, id=2216, 331.2375pt x 264.99pt>
+<chapters/15/images/enm-theory.png, id=2222, 331.2375pt x 264.99pt>
 File: chapters/15/images/enm-theory.png Graphic file (type png)
 <use chapters/15/images/enm-theory.png>
 Package pdftex.def Info: chapters/15/images/enm-theory.png  used on input line 10.
 (pdftex.def)             Requested size: 165.61833pt x 132.49467pt.
-[135
+[136
 
  <./chapters/15/images/enm-theory.png>]
-<chapters/15/images/kirchoff-adjacency-matrix.png, id=2224, 628.3475pt x 259.97125pt>
+<chapters/15/images/kirchoff-adjacency-matrix.png, id=2230, 628.3475pt x 259.97125pt>
 File: chapters/15/images/kirchoff-adjacency-matrix.png Graphic file (type png)
 <use chapters/15/images/kirchoff-adjacency-matrix.png>
 Package pdftex.def Info: chapters/15/images/kirchoff-adjacency-matrix.png  used on input line 52.
 (pdftex.def)             Requested size: 433.62pt x 179.40414pt.
- [136 <./chapters/15/images/kirchoff-adjacency-matrix.png>]
-<chapters/15/images/gnm-b-factors.png, id=2232, 532.99126pt x 384.43625pt>
+ [137 <./chapters/15/images/kirchoff-adjacency-matrix.png>]
+<chapters/15/images/gnm-b-factors.png, id=2238, 532.99126pt x 384.43625pt>
 File: chapters/15/images/gnm-b-factors.png Graphic file (type png)
 <use chapters/15/images/gnm-b-factors.png>
 Package pdftex.def Info: chapters/15/images/gnm-b-factors.png  used on input line 95.
 (pdftex.def)             Requested size: 433.62pt x 312.77016pt.
- [137]
-<chapters/15/images/biological-relevance.png, id=2241, 720.6925pt x 453.695pt>
+ [138]
+<chapters/15/images/biological-relevance.png, id=2248, 720.6925pt x 453.695pt>
 File: chapters/15/images/biological-relevance.png Graphic file (type png)
 <use chapters/15/images/biological-relevance.png>
 Package pdftex.def Info: chapters/15/images/biological-relevance.png  used on input line 106.
 (pdftex.def)             Requested size: 433.62pt x 272.97368pt.
- [138 <./chapters/15/images/gnm-b-factors.png>] [139 <./chapters/15/images/biological-relevance.png>]
-<chapters/15/images/asm-correlated-motion.png, id=2256, 684.5575pt x 351.3125pt>
+ [139 <./chapters/15/images/gnm-b-factors.png>] [140 <./chapters/15/images/biological-relevance.png>]
+<chapters/15/images/asm-correlated-motion.png, id=2262, 684.5575pt x 351.3125pt>
 File: chapters/15/images/asm-correlated-motion.png Graphic file (type png)
 <use chapters/15/images/asm-correlated-motion.png>
 Package pdftex.def Info: chapters/15/images/asm-correlated-motion.png  used on input line 157.
 (pdftex.def)             Requested size: 433.62pt x 222.53954pt.
- [140] [141 <./chapters/15/images/asm-correlated-motion.png>]
-<chapters/15/images/eigenvalue-scree-plot.png, id=2269, 544.0325pt x 423.5825pt>
+ [141] [142 <./chapters/15/images/asm-correlated-motion.png>]
+<chapters/15/images/eigenvalue-scree-plot.png, id=2275, 544.0325pt x 423.5825pt>
 File: chapters/15/images/eigenvalue-scree-plot.png Graphic file (type png)
 <use chapters/15/images/eigenvalue-scree-plot.png>
 Package pdftex.def Info: chapters/15/images/eigenvalue-scree-plot.png  used on input line 216.
 (pdftex.def)             Requested size: 272.01558pt x 211.79073pt.
- [142]
-<chapters/15/images/eigenvalue-collectivity.png, id=2282, 637.38126pt x 269.005pt>
+ [143]
+<chapters/15/images/eigenvalue-collectivity.png, id=2288, 637.38126pt x 269.005pt>
 File: chapters/15/images/eigenvalue-collectivity.png Graphic file (type png)
 <use chapters/15/images/eigenvalue-collectivity.png>
 Package pdftex.def Info: chapters/15/images/eigenvalue-collectivity.png  used on input line 226.
 (pdftex.def)             Requested size: 254.94798pt x 107.60008pt.
-<chapters/15/images/weighted-rmsd.png, id=2284, 540.0175pt x 247.92625pt>
+<chapters/15/images/weighted-rmsd.png, id=2290, 540.0175pt x 247.92625pt>
 File: chapters/15/images/weighted-rmsd.png Graphic file (type png)
 <use chapters/15/images/weighted-rmsd.png>
 Package pdftex.def Info: chapters/15/images/weighted-rmsd.png  used on input line 237.
 (pdftex.def)             Requested size: 216.00316pt x 99.16873pt.
- [143 <./chapters/15/images/eigenvalue-scree-plot.png> <./chapters/15/images/eigenvalue-collectivity.png>]
-<chapters/15/images/scatter-plot-pcs-modes.png, id=2297, 623.32875pt x 434.62375pt>
+ [144 <./chapters/15/images/eigenvalue-scree-plot.png> <./chapters/15/images/eigenvalue-collectivity.png>]
+<chapters/15/images/scatter-plot-pcs-modes.png, id=2304, 623.32875pt x 434.62375pt>
 File: chapters/15/images/scatter-plot-pcs-modes.png Graphic file (type png)
 <use chapters/15/images/scatter-plot-pcs-modes.png>
 Package pdftex.def Info: chapters/15/images/scatter-plot-pcs-modes.png  used on input line 251.
 (pdftex.def)             Requested size: 249.32707pt x 173.8464pt.
-<chapters/15/images/scatter-plot-pcs.png, id=2299, 770.88pt x 450.68375pt>
+<chapters/15/images/scatter-plot-pcs.png, id=2306, 770.88pt x 450.68375pt>
 File: chapters/15/images/scatter-plot-pcs.png Graphic file (type png)
 <use chapters/15/images/scatter-plot-pcs.png>
 Package pdftex.def Info: chapters/15/images/scatter-plot-pcs.png  used on input line 259.
 (pdftex.def)             Requested size: 433.62pt x 253.50897pt.
- [144 <./chapters/15/images/weighted-rmsd.png> <./chapters/15/images/scatter-plot-pcs-modes.png>]
-<chapters/15/images/cosine-content.png, id=2311, 415.5525pt x 330.23375pt>
+ [145 <./chapters/15/images/weighted-rmsd.png> <./chapters/15/images/scatter-plot-pcs-modes.png>]
+<chapters/15/images/cosine-content.png, id=2317, 415.5525pt x 330.23375pt>
 File: chapters/15/images/cosine-content.png Graphic file (type png)
 <use chapters/15/images/cosine-content.png>
 Package pdftex.def Info: chapters/15/images/cosine-content.png  used on input line 277.
 (pdftex.def)             Requested size: 249.33342pt x 198.14177pt.
- [145 <./chapters/15/images/scatter-plot-pcs.png>]) (chapters/16/clustering-protein-structure-networks.tex [146 <./chapters/15/images/cosine-content.png>]
+ [146 <./chapters/15/images/scatter-plot-pcs.png>]) (chapters/16/clustering-protein-structure-networks.tex [147 <./chapters/15/images/cosine-content.png>]
 Chapter 16.
-[147
+[148
 
 ]
-<chapters/16/images/dendrogram.png, id=2330, 421.575pt x 179.67125pt>
+<chapters/16/images/dendrogram.png, id=2336, 421.575pt x 179.67125pt>
 File: chapters/16/images/dendrogram.png Graphic file (type png)
 <use chapters/16/images/dendrogram.png>
 Package pdftex.def Info: chapters/16/images/dendrogram.png  used on input line 68.
 (pdftex.def)             Requested size: 433.62pt x 184.80847pt.
-<chapters/16/images/correct-number.png, id=2331, 814.04124pt x 448.67625pt>
+<chapters/16/images/correct-number.png, id=2337, 814.04124pt x 448.67625pt>
 File: chapters/16/images/correct-number.png Graphic file (type png)
 <use chapters/16/images/correct-number.png>
 Package pdftex.def Info: chapters/16/images/correct-number.png  used on input line 83.
 (pdftex.def)             Requested size: 433.62pt x 238.99538pt.
- [148 <./chapters/16/images/dendrogram.png>]
-<chapters/16/images/outliers.png, id=2339, 799.98875pt x 447.6725pt>
+ [149 <./chapters/16/images/dendrogram.png>]
+<chapters/16/images/outliers.png, id=2345, 799.98875pt x 447.6725pt>
 File: chapters/16/images/outliers.png Graphic file (type png)
 <use chapters/16/images/outliers.png>
 Package pdftex.def Info: chapters/16/images/outliers.png  used on input line 92.
 (pdftex.def)             Requested size: 433.62pt x 242.65489pt.
- [149 <./chapters/16/images/correct-number.png>] [150 <./chapters/16/images/outliers.png>]
-<chapters/16/images/elbow.png, id=2355, 812.03375pt x 383.4325pt>
+ [150 <./chapters/16/images/correct-number.png>] [151 <./chapters/16/images/outliers.png>]
+<chapters/16/images/elbow.png, id=2361, 812.03375pt x 383.4325pt>
 File: chapters/16/images/elbow.png Graphic file (type png)
 <use chapters/16/images/elbow.png>
 Package pdftex.def Info: chapters/16/images/elbow.png  used on input line 162.
 (pdftex.def)             Requested size: 433.62pt x 204.74529pt.
- [151]
-<chapters/16/images/psn.png, id=2367, 848.16875pt x 453.695pt>
+ [152]
+<chapters/16/images/psn.png, id=2373, 848.16875pt x 453.695pt>
 File: chapters/16/images/psn.png Graphic file (type png)
 <use chapters/16/images/psn.png>
 Package pdftex.def Info: chapters/16/images/psn.png  used on input line 171.
 (pdftex.def)             Requested size: 433.62pt x 231.94905pt.
- [152 <./chapters/16/images/elbow.png> <./chapters/16/images/psn.png>] [153]
-<chapters/16/images/p53.png, id=2382, 502.87875pt x 356.33125pt>
+ [153 <./chapters/16/images/elbow.png> <./chapters/16/images/psn.png>] [154]
+<chapters/16/images/p53.png, id=2388, 502.87875pt x 356.33125pt>
 File: chapters/16/images/p53.png Graphic file (type png)
 <use chapters/16/images/p53.png>
 Package pdftex.def Info: chapters/16/images/p53.png  used on input line 255.
 (pdftex.def)             Requested size: 433.62pt x 307.25447pt.
- [154]
-<chapters/16/images/vap.png, id=2388, 583.17876pt x 318.18875pt>
+ [155]
+<chapters/16/images/vap.png, id=2394, 583.17876pt x 318.18875pt>
 File: chapters/16/images/vap.png Graphic file (type png)
 <use chapters/16/images/vap.png>
 Package pdftex.def Info: chapters/16/images/vap.png  used on input line 264.
 (pdftex.def)             Requested size: 433.62pt x 236.59209pt.
-) (chapters/17/monte-carlo.tex [155 <./chapters/16/images/p53.png>] [156 <./chapters/16/images/vap.png>]
+) (chapters/17/monte-carlo.tex [156 <./chapters/16/images/p53.png>] [157 <./chapters/16/images/vap.png>]
 Chapter 17.
-[157
+[158
 
-] [158] [159]
-<chapters/17/images/importance-sampling.png, id=2417, 683.55376pt x 230.8625pt>
+] [159] [160]
+<chapters/17/images/importance-sampling.png, id=2423, 683.55376pt x 230.8625pt>
 File: chapters/17/images/importance-sampling.png Graphic file (type png)
 <use chapters/17/images/importance-sampling.png>
 Package pdftex.def Info: chapters/17/images/importance-sampling.png  used on input line 137.
 (pdftex.def)             Requested size: 433.62pt x 146.45161pt.
- [160 <./chapters/17/images/importance-sampling.png>] [161]
+ [161 <./chapters/17/images/importance-sampling.png>] [162]
 Overfull \hbox (4.5634pt too wide) in paragraph at lines 231--234
 []\T1/cmr/m/n/10 If $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 > \OT1/cmr/m/n/10 1$ \T1/cmr/m/n/10 ac-cept the move, oth-er-wise ac-cept the move with prob-a-bil-ity given by $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )$\T1/cmr/m/n/10 :
  []
 
-[162] [163] [164] [165]) (chapters/18/free-energy-calculations.tex [166]
+[163] [164] [165] [166]) (chapters/18/free-energy-calculations.tex [167]
 Chapter 18.
-<chapters/18/images/enzymes.png, id=2453, 599.23875pt x 216.81pt>
+<chapters/18/images/enzymes.png, id=2459, 599.23875pt x 216.81pt>
 File: chapters/18/images/enzymes.png Graphic file (type png)
 <use chapters/18/images/enzymes.png>
 Package pdftex.def Info: chapters/18/images/enzymes.png  used on input line 11.
 (pdftex.def)             Requested size: 239.69125pt x 86.72246pt.
-[167
+[168
 
- <./chapters/18/images/enzymes.png>] [168]
-<chapters/18/images/ddm.png, id=2465, 564.1075pt x 478.78876pt>
+ <./chapters/18/images/enzymes.png>] [169]
+<chapters/18/images/ddm.png, id=2471, 564.1075pt x 478.78876pt>
 File: chapters/18/images/ddm.png Graphic file (type png)
 <use chapters/18/images/ddm.png>
 Package pdftex.def Info: chapters/18/images/ddm.png  used on input line 102.
 (pdftex.def)             Requested size: 282.05305pt x 239.39378pt.
- [169] [170 <./chapters/18/images/ddm.png>]
-<chapters/18/images/adiabatic-free-energy-dynamics.png, id=2476, 657.45625pt x 288.07625pt>
+ [170] [171 <./chapters/18/images/ddm.png>]
+<chapters/18/images/adiabatic-free-energy-dynamics.png, id=2482, 657.45625pt x 288.07625pt>
 File: chapters/18/images/adiabatic-free-energy-dynamics.png Graphic file (type png)
 <use chapters/18/images/adiabatic-free-energy-dynamics.png>
 Package pdftex.def Info: chapters/18/images/adiabatic-free-energy-dynamics.png  used on input line 133.
 (pdftex.def)             Requested size: 328.72733pt x 144.03777pt.
- [171 <./chapters/18/images/adiabatic-free-energy-dynamics.png>] [172]
+ [172 <./chapters/18/images/adiabatic-free-energy-dynamics.png>] [173]
 Overfull \hbox (12.99838pt too wide) detected at line 244
 \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 e[]\OMS/cmsy/m/n/10 i[] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 dx[]e[]e[] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 dx[]e[]
  []
 
-[173]
-<chapters/18/images/pulling.png, id=2492, 380.42125pt x 595.22375pt>
+[174]
+<chapters/18/images/pulling.png, id=2499, 380.42125pt x 595.22375pt>
 File: chapters/18/images/pulling.png Graphic file (type png)
 <use chapters/18/images/pulling.png>
 Package pdftex.def Info: chapters/18/images/pulling.png  used on input line 260.
 (pdftex.def)             Requested size: 190.21014pt x 297.61115pt.
- [174 <./chapters/18/images/pulling.png>]
-<chapters/18/images/dist.png, id=2502, 739.76375pt x 555.07375pt>
+ [175 <./chapters/18/images/pulling.png>]
+<chapters/18/images/dist.png, id=2508, 739.76375pt x 555.07375pt>
 File: chapters/18/images/dist.png Graphic file (type png)
 <use chapters/18/images/dist.png>
 Package pdftex.def Info: chapters/18/images/dist.png  used on input line 281.
 (pdftex.def)             Requested size: 369.88097pt x 277.53618pt.
- [175 <./chapters/18/images/dist.png>]
-<chapters/18/images/rough.png, id=2510, 684.5575pt x 521.95pt>
+ [176 <./chapters/18/images/dist.png>]
+<chapters/18/images/rough.png, id=2516, 684.5575pt x 521.95pt>
 File: chapters/18/images/rough.png Graphic file (type png)
 <use chapters/18/images/rough.png>
 Package pdftex.def Info: chapters/18/images/rough.png  used on input line 305.
 (pdftex.def)             Requested size: 342.27791pt x 260.97435pt.
-<chapters/18/images/RE.png, id=2511, 841.1425pt x 585.18625pt>
+<chapters/18/images/RE.png, id=2517, 841.1425pt x 585.18625pt>
 File: chapters/18/images/RE.png Graphic file (type png)
 <use chapters/18/images/RE.png>
 Package pdftex.def Info: chapters/18/images/RE.png  used on input line 320.
 (pdftex.def)             Requested size: 420.57022pt x 292.5924pt.
- [176 <./chapters/18/images/rough.png>] [177 <./chapters/18/images/RE.png>]) (chapters/19/rare-events.tex [178]
+ [177 <./chapters/18/images/rough.png>] [178 <./chapters/18/images/RE.png>]) (chapters/19/rare-events.tex [179]
 Chapter 19.
-<chapters/19/images/rough-free-energy-surfaces.png, id=2533, 656.4525pt x 347.2975pt>
+<chapters/19/images/rough-free-energy-surfaces.png, id=2539, 656.4525pt x 347.2975pt>
 File: chapters/19/images/rough-free-energy-surfaces.png Graphic file (type png)
 <use chapters/19/images/rough-free-energy-surfaces.png>
 Package pdftex.def Info: chapters/19/images/rough-free-energy-surfaces.png  used on input line 14.
 (pdftex.def)             Requested size: 433.62pt x 229.40782pt.
-[179
+[180
 
- <./chapters/19/images/rough-free-energy-surfaces.png>] [180] [181] [182] [183]) (chapters/20/advanced-methods.tex [184] [185]
+ <./chapters/19/images/rough-free-energy-surfaces.png>] [181] [182] [183] [184]) (chapters/20/advanced-methods.tex [185] [186]
 Chapter 20.
-[186
+[187
 
 ]
-<chapters/20/images/tamd.png, id=2571, 700.6175pt x 469.755pt>
+<chapters/20/images/tamd.png, id=2577, 700.6175pt x 469.755pt>
 File: chapters/20/images/tamd.png Graphic file (type png)
 <use chapters/20/images/tamd.png>
 Package pdftex.def Info: chapters/20/images/tamd.png  used on input line 67.
 (pdftex.def)             Requested size: 433.62pt x 290.74335pt.
- [187] [188 <./chapters/20/images/tamd.png>]
-<chapters/20/images/transition-path-ensemble.png, id=2582, 593.21625pt x 176.66pt>
+ [188] [189 <./chapters/20/images/tamd.png>]
+<chapters/20/images/transition-path-ensemble.png, id=2588, 593.21625pt x 176.66pt>
 File: chapters/20/images/transition-path-ensemble.png Graphic file (type png)
 <use chapters/20/images/transition-path-ensemble.png>
 Package pdftex.def Info: chapters/20/images/transition-path-ensemble.png  used on input line 110.
 (pdftex.def)             Requested size: 433.62pt x 129.13593pt.
- [189 <./chapters/20/images/transition-path-ensemble.png>]
+ [190 <./chapters/20/images/transition-path-ensemble.png>]
 Overfull \hbox (30.5368pt too wide) in paragraph at lines 150--152
 \T1/cmr/m/n/10 Following the same method in Monte Carlo meth-ods and Metropo-lis al-go-rithm, in-tro-duce $\OMS/cmsy/m/n/10 R[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 T\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 T\OT1/cmr/m/n/10 )]$\T1/cmr/m/n/10 ,
  []
 
-[190]
-<chapters/20/images/transition-path-sampling.png, id=2593, 670.505pt x 280.04625pt>
+[191]
+<chapters/20/images/transition-path-sampling.png, id=2599, 670.505pt x 280.04625pt>
 File: chapters/20/images/transition-path-sampling.png Graphic file (type png)
 <use chapters/20/images/transition-path-sampling.png>
 Package pdftex.def Info: chapters/20/images/transition-path-sampling.png  used on input line 170.
@@ -1412,13 +1412,13 @@ Overfull \hbox (31.77632pt too wide) detected at line 195
 []
  []
 
-[191 <./chapters/20/images/transition-path-sampling.png>]
-<chapters/20/images/committor-distribution.png, id=2600, 657.45625pt x 312.16624pt>
+[192 <./chapters/20/images/transition-path-sampling.png>]
+<chapters/20/images/committor-distribution.png, id=2607, 657.45625pt x 312.16624pt>
 File: chapters/20/images/committor-distribution.png Graphic file (type png)
 <use chapters/20/images/committor-distribution.png>
 Package pdftex.def Info: chapters/20/images/committor-distribution.png  used on input line 224.
 (pdftex.def)             Requested size: 433.62pt x 205.88745pt.
- [192]
+ [193]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 237.
@@ -1439,27 +1439,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 237.
 
-[193 <./chapters/20/images/committor-distribution.png>]
-<chapters/20/images/histogram-test.png, id=2626, 749.80125pt x 356.33125pt>
+[194 <./chapters/20/images/committor-distribution.png>]
+<chapters/20/images/histogram-test.png, id=2632, 749.80125pt x 356.33125pt>
 File: chapters/20/images/histogram-test.png Graphic file (type png)
 <use chapters/20/images/histogram-test.png>
 Package pdftex.def Info: chapters/20/images/histogram-test.png  used on input line 255.
 (pdftex.def)             Requested size: 433.62pt x 206.07417pt.
-) [194 <./chapters/20/images/histogram-test.png>] [195
+) [195 <./chapters/20/images/histogram-test.png>] [196
 
 ] (chapters/questions/questions_potestio.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[196]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48724pt, for example:
@@ -1531,7 +1523,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
 
-[205])
+[205]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48724pt, for example:
@@ -1539,14 +1531,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
 
-[206] [207
+[206])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48724pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48724pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
+
+[207] [208
 
 ] (chapters/additional_mathematics/Fourier_series.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-) (chapters/additional_mathematics/LagrangeMultipliers.tex [208]) [209] (principal.aux)
+) (chapters/additional_mathematics/LagrangeMultipliers.tex [209]) [210] (principal.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1566,17 +1566,17 @@ Package rerunfilecheck Info: File `principal.out' has not changed.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26580 strings out of 474588
- 504855 string characters out of 5749044
+ 26583 strings out of 474588
+ 504879 string characters out of 5749044
  1998555 words of memory out of 5000000
  47282 multiletter control sequences out of 15000+600000
  580034 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,19n,82p,786b,1129s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0500.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0700.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on principal.pdf (210 pages, 6921660 bytes).
+Output written on principal.pdf (211 pages, 6924640 bytes).
 PDF statistics:
- 3923 PDF objects out of 4296 (max. 8388607)
- 1010 named destinations out of 1200 (max. 500000)
+ 3930 PDF objects out of 4296 (max. 8388607)
+ 1013 named destinations out of 1200 (max. 500000)
  2562 words of extra memory for PDF output out of 10000 (max. 10000000)
 

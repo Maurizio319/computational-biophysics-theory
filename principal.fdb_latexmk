@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710775827 "/home/maurizio/Desktop/computational-biophysics-theory/principal.tex" "principal.pdf" "principal" 1710775835 0
+["pdflatex"] 1711204172 "/home/maurizio/Desktop/computational-biophysics-theory/principal.tex" "principal.pdf" "principal" 1711204181 0
   "/home/maurizio/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1710414164 125478 55f56c7fb700bc9b88343d0cd0367c5e ""
   "/home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1701013915 22504 6d933f6e0602164b877b72a52f7b09f6 ""
   "/home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1700902625 25420 6d805518611dc8e379074cd172dffe39 ""
@@ -284,11 +284,11 @@
   "chapters/additional_mathematics/Fourier_series.tex" 1710588143 1779 8cc9c7e298721286ee2f5863f1bed3bc ""
   "chapters/additional_mathematics/LagrangeMultipliers.tex" 1710693977 1825 1657d63817ed2bcb23653df3b4942adb ""
   "chapters/questions/questions_potestio.tex" 1710416745 30439 12cd749989c3c5fd1e21a56a480c9b11 ""
-  "chapters/questions/questions_tuckerman.tex" 1710775818 5531 4a90c8447966361d4ccd237c4ff61591 ""
+  "chapters/questions/questions_tuckerman.tex" 1711204163 8551 ac497d609543e7357f333c3a4c865b9e ""
   "prefix.tex" 1710415241 1768 65b7212245dac4376fc492a2ecedebd6 ""
-  "principal.aux" 1710775834 70068 22b1cd9d18ef0aa614bfcb32277e69aa "pdflatex"
-  "principal.out" 1710775834 47297 a12a82faee66fbd4ff3272108f86c95e "pdflatex"
-  "principal.toc" 1710775834 33010 05d2a3d3443a5370548b896f082b8a12 "pdflatex"
+  "principal.aux" 1711204181 70069 1ebe11de0a7a1f85c9707fb4c872dcf4 "pdflatex"
+  "principal.out" 1711204181 47297 a12a82faee66fbd4ff3272108f86c95e "pdflatex"
+  "principal.toc" 1711204181 33011 d0f957ab22f9e050862d6fd5bc704e22 "pdflatex"
   (generated)
   "principal.aux"
   "principal.log"

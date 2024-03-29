@@ -8,9 +8,12 @@ The formula for a function defined by other periodic subfunctions is written as 
     f(t) = \sum_{n = -N}^{N}{c_n e^{2 \pi int}}
 \end{equation}
 
-Given that each rotation
-
-each exponential can be considered as a sort of rotating vector, as stated in the video. The $c_n$ factor is indicative of the amplitude of that circle, while instead the term in the exponential would indicate the angle of start of the rotation.
+each exponential can be considered as a sort of rotating vector, as stated in the video. The $c_n$ factor is indicative of the amplitude of that circle, while instead the term in the exponential would indicate the angle of start of the rotation. This term represents the complex exponential function with frequency $2 \pi n$ multiplied by time $t$. It's a periodic function with a frequency determined by the integer $n$. The complex exponential function captures the phase information of the corresponding frequency component. The function indicates a periodicity/frequency that is indicated by $|n|$, which is the considered modulating factor.
+If it's hard for you to understand that the term in the exponential is a periodic function, remember that
+$$
+e^{ix} = \cos{(x)} + i \sen{(x)}
+$$
+\\
 Considering that you have a constant term in the summation, which is $c_0 e^{i0t}$, if you compute the integral as follows (given that you are considering a distance of 1, so the integral divided by one is the average)
 
 $$

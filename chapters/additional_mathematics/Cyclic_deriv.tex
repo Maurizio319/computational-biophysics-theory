@@ -1,0 +1,43 @@
+\section{Cyclic identity for partial derivatives}
+
+Given a function $z(x,y)$, we can state theta
+
+\begin{align*}
+    dz &= \left(\frac{\partial z}{\partial x}\right)_{\textrm{x}} dx + 
+        \left(\frac{\partial z}{\partial y}\right)_{\textrm{y}} dy \\
+    \left(\frac{\partial z}{\partial y}\right)_{\textrm{z}} &= \left(\frac{\partial z}{\partial x}\right)_{\textrm{x}} \left(\frac{dx}{dy}\right)_z + 
+        \left(\frac{\partial z}{\partial y}\right)_{\textrm{y}} \left(\frac{dy}{dy}\right)_y \\
+    0 &= \left(\frac{\partial z}{\partial x}\right)_{\textrm{x}} \left(\frac{dx}{dy}\right)_z + 
+        \left(\frac{\partial z}{\partial y}\right)_{\textrm{y}} \\
+    -\left(\frac{\partial z}{\partial y}\right)_{\textrm{y}} &= \left(\frac{\partial z}{\partial x}\right)_{\textrm{x}} \left(\frac{dx}{dy}\right)_z \\
+    \left(\frac{\partial z}{\partial x}\right)_{\textrm{y}} \left(\frac{\partial x}{\partial y}\right)_{\textrm{z}} \left(\frac{\partial y}{\partial z}\right)_{\textrm{x}} &= -1
+\end{align*}
+
+You can observe a sort of rotattion of the variable
+
+\textbf{example:}: evaluate $\left(\frac{\partial P}{\partial T}\right)_{\textrm{V}}$
+
+You can try to evaluate it from
+
+$$
+\left(\frac{\partial P}{\partial T}\right)_{\textrm{V}}
+\left(\frac{\partial T}{\partial V}\right)_{\textrm{P}}
+\left(\frac{\partial V}{\partial P}\right)_{\textrm{T}}
+= -1
+$$  
+
+Which is also equal to
+
+$$
+\left(\frac{\partial P}{\partial T}\right)_{\textrm{V}}
+\left(\frac{1}{V \alpha}\right)
+(- V k)
+$$
+
+Where $\alpha$ is the isobaric compressibility and k is the isothermal compressibility such theta
+
+$$
+- Vk = \frac{\partial V}{\partial P}_{\textrm{T}}
+\;\;
+V \alpha = \frac{\partial V}{\partial T}_{\textrm{P}}
+$$

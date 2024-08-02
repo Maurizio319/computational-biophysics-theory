@@ -250,3 +250,54 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 	So the pressure estimator is:
 
 	$$\mathcal{P}(\vec{r}, \vec{p}) = \frac{1}{3V}\sum\limits_i\biggl[\frac{\vec{p}_i^2}{m_i}+ \vec{F}_i\cdot\vec{r}_i\biggr]$$
+
+	\section{Entropy in a canonical system with respect to microcanonical one}
+
+	The formula for the entropy in the canonical system is written as follows:
+
+	$$
+	S = - k_B <\ln P_r> = - k_B \int{P_r \ln{P_r} d\omega}
+	$$
+
+	Notice that, if the energies are all equal, then also the probabilities are the same and can be written as follows
+
+	$$
+	S = - k_B \sum_{r = 1}^\Omega{\frac{1}{\Omega} \ln{\left(\frac{1}{\Omega}\right)}} = k \ln \Omega
+	$$
+
+	Which is exactly the form for the entropy in the microcanonical system.
+
+
+	You can find a very telling formula with the following passages:
+
+	\begin{align*}
+		S &= - k_B \int{P_r \ln{P_r} d\omega} \\
+		&= - k_B \int{P_r (-\beta H - \ln{Z}) d\omega} \\
+		&= k_B \beta <H> + \ln{Z} \\
+		S &= \frac{1}{T} U + k_B \ln{Z}
+	\end{align*}
+
+	You can than play with the $\ln Z$ 
+
+	\begin{align*}
+		\frac{\partial}{\partial \beta} (\ln Z) &= \frac{1}{Z} 
+		\frac{\partial Z}{\partial \beta} \\ 
+		&= \frac{1}{Z} 
+		\int{\frac{\partial}{\partial \beta} (\text{exp}(-\beta H)) d\omega} \\
+		&= 1/Z \int{-H \text{exp}(-\beta H) d\omega} \\
+		&= - <H> = -U
+	\end{align*}
+
+	Therefore $U = - \frac{\partial}{\partial \beta}(\ln{Z})$ and 
+
+	$$
+	S = k_B T \frac{\partial}{\partial T}\ln{Z} + k_B \ln{Z} = k_B \frac{\partial}{\partial T}(T \ln{Z})
+	$$
+
+	From here, you can observe that
+
+	$$
+	A =  - k_B T \ln{Z}
+	$$
+
+

@@ -352,9 +352,12 @@ INPUT chapters/additional_mathematics/Fourier_series.tex
 INPUT ./chapters/additional_mathematics/LagrangeMultipliers.tex
 INPUT ./chapters/additional_mathematics/LagrangeMultipliers.tex
 INPUT chapters/additional_mathematics/LagrangeMultipliers.tex
-INPUT ./chapters/additional_mathematics/Gauss_integral.tex
-INPUT ./chapters/additional_mathematics/Gauss_integral.tex
-INPUT chapters/additional_mathematics/Gauss_integral.tex
+INPUT ./chapters/additional_mathematics/methods_solve_integ.tex
+INPUT ./chapters/additional_mathematics/methods_solve_integ.tex
+INPUT chapters/additional_mathematics/methods_solve_integ.tex
+INPUT ./chapters/additional_mathematics/Laplace.tex
+INPUT ./chapters/additional_mathematics/Laplace.tex
+INPUT chapters/additional_mathematics/Laplace.tex
 INPUT ./chapters/additional_mathematics/Cyclic_deriv.tex
 INPUT ./chapters/additional_mathematics/Cyclic_deriv.tex
 INPUT chapters/additional_mathematics/Cyclic_deriv.tex

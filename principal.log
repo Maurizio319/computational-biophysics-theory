@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  2 AUG 2024 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  5 AUG 2024 23:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,7 +841,7 @@ Overfull \hbox (37.06064pt too wide) detected at line 234
  []
 
 [14] [15]) (pathria/CpminusCv.tex [16] [17]
-</home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg, id=218, 853.1875pt x 338.26375pt>
+</home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg, id=243, 853.1875pt x 338.26375pt>
 File: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg Graphic file (type jpg)
 <use /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>
 Package pdftex.def Info: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg  used on input line 120.
@@ -952,30 +952,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-) (chapters/additional_mathematics/LagrangeMultipliers.tex [34]) (chapters/additional_mathematics/Gauss_integral.tex) (chapters/additional_mathematics/Cyclic_deriv.tex [35]) [36] (principal.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+[34]) (chapters/additional_mathematics/LagrangeMultipliers.tex) (chapters/additional_mathematics/methods_solve_integ.tex [35]) (chapters/additional_mathematics/Laplace.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[36] [37]) (chapters/additional_mathematics/Cyclic_deriv.tex [38]) [39] (principal.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `principal.out' has not changed.
-(rerunfilecheck)             Checksum: 77273A72748C1BD79AA42B73A1AA7AFA;4373.
+(rerunfilecheck)             Checksum: F0E38411642F09AFDB769A910FD88167;5180.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24517 strings out of 474588
- 457407 string characters out of 5749044
+ 24540 strings out of 474588
+ 457995 string characters out of 5749044
  1947555 words of memory out of 5000000
- 45926 multiletter control sequences out of 15000+600000
+ 45935 multiletter control sequences out of 15000+600000
  579270 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,14n,82p,805b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0700.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on principal.pdf (37 pages, 603385 bytes).
+Output written on principal.pdf (40 pages, 631204 bytes).
 PDF statistics:
- 1214 PDF objects out of 1440 (max. 8388607)
- 389 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1271 PDF objects out of 1440 (max. 8388607)
+ 400 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -37,3 +37,32 @@ In a clever way, you can multiply all the terms by an exponential of choice to m
 \begin{equation}
     c_n = \int_0^1{f(t) e^{-2 \pi n * it} dt}
 \end{equation}
+
+
+\section{Laplace transformation}
+
+From video \href{https://www.youtube.com/watch?v=n2y7n6jw5d0}{video}.
+
+Given that a Fourier transformation can be written as\\
+
+$$
+X(\omega) = \int{x(t) e^{-i\omega t}dt}
+$$
+
+Notice that when the frequency distribution hits the y axis, the position correspons to the value of the integral for the function x(t)
+
+While $\omega$ is a real number, the value X($\omega$) has a real and an imaginary component, from which we can calculate the magnitude. You can calculate $\omega(1), \omega(2)...$ and see that you obtain the magnitude plot (axis x with $\omega$).
+
+Therefore, from a fourier transformation of a function with an exponential and a periodic componen (e.g. $e^{-t} \sin{t}$), you obtain a magnitude graphs of the frequencies.
+
+The Laplace transformation can be written as
+
+\begin{align*}
+    X(s) &= \int_0^\infty{x(t) e^{-st} dt}\\
+    &=\int_0^\infty{x(t) e^{-(\alpha + i \omega)t} dt}\\
+    &= \int_0^\infty{x(t) e^{-\alpha t} e^{-i \omega t} dt}
+\end{align*}
+
+Therefore, the Laplace transformation of x(t) is the fourier transformation of $x(t) e^{-\alpha t}$.
+
+In the case of Laplace transformation, input with imaginary and real part. However, when s= 0 than

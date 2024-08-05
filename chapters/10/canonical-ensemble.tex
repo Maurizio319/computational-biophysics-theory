@@ -273,7 +273,7 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 	\begin{align*}
 		S &= - k_B \int{P_r \ln{P_r} d\omega} \\
 		&= - k_B \int{P_r (-\beta H - \ln{Z}) d\omega} \\
-		&= k_B \beta <H> + \ln{Z} \\
+		&= k_B (\beta <H> + \ln{Z}) \\
 		S &= \frac{1}{T} U + k_B \ln{Z}
 	\end{align*}
 
@@ -301,3 +301,12 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 	$$
 
 
+\subsection{Canonical systems}
+
+\textbf{particles with a radius and interacting between themselves and with the wall}
+
+L (Lagrangian)
+
+$$
+L = \sum_i{\frac{1}{2} m \vec{\dot{r}}}^2 - \left(\sum_{i<j}{u(r_{ij})} + \left[\sum_{i\alpha}{u_{wall}(z_{i\alpha}) + u_{wall}(L - z_{i\alpha})}\right]\right)
+$$

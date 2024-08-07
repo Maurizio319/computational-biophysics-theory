@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  5 AUG 2024 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  6 AUG 2024 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -836,12 +836,17 @@ Chapter 1.
 [9
 
 ] [10] [11] [12] [13]
-Overfull \hbox (37.06064pt too wide) detected at line 234
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+[14]
+Overfull \hbox (37.06064pt too wide) detected at line 247
 []
  []
 
-[14] [15]) (pathria/CpminusCv.tex [16] [17]
-</home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg, id=243, 853.1875pt x 338.26375pt>
+[15]) (pathria/CpminusCv.tex [16] [17] [18]
+</home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg, id=248, 853.1875pt x 338.26375pt>
 File: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg Graphic file (type jpg)
 <use /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>
 Package pdftex.def Info: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg  used on input line 120.
@@ -851,7 +856,7 @@ Overfull \hbox (419.56543pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
-[18] [19 </home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>]) [20] [21
+[19 </home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>]) [20] [21
 
 ] (chapters/questions/questions_potestio.tex
 
@@ -958,7 +963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 [34]) (chapters/additional_mathematics/LagrangeMultipliers.tex) (chapters/additional_mathematics/methods_solve_integ.tex [35]) (chapters/additional_mathematics/Laplace.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -983,9 +988,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,14n,82p,805b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0700.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on principal.pdf (40 pages, 631204 bytes).
+Output written on principal.pdf (40 pages, 632922 bytes).
 PDF statistics:
- 1271 PDF objects out of 1440 (max. 8388607)
+ 1275 PDF objects out of 1440 (max. 8388607)
  400 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

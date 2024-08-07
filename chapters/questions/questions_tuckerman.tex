@@ -1,0 +1,192 @@
+\section{Questions Tuckerman}
+
+\begin{enumerate}
+    \item Chapter 1
+    \begin{itemize}
+        \item what is a phase space?
+        \item write lagrangian
+        \item what is the euler lagrange equation
+        \item what is a lagandre transformation? what is  an hamiltonian in that sense?
+        \item explain H. equations of motion
+        \item write derivative of H with respect to time 
+        \item what does the constant energy surface mean?
+        \item How do you compute the work needed for th e passage between a state to another?
+        \item How does simmetries, implied by the Hamilton's conservation, are written? Poisson brackets
+        \item What happens if a quantity included in a Poisson bracket is conserved over time? The poisson bracket becomes 0
+        \item What happens if you translate all the coordinates of a system by a value $a$? You generate the translation group, which is made of all the configurations that maintain the Hamiltonian
+        \item What conservation law is associated to that invariance? Noether's theorem 
+        \item What does it mean that the Hamiltonian is incompressible? There will be no source of sinks or sources for the flow. This type of condition can be expressed as it is done in hydrodynamics. Given that a vector in the phase space is
+
+        $$
+        x = (q_1, q_{3N} \dots p_1, p_{3N})
+        $$
+
+        you can take the derivative which has the form
+        $$
+        \eta (x) = \left(\frac{\partial H}{\partial p_1} \dots \frac{\partial H}{\partial p_{3N}}, \frac{\partial H}{\partial q_1} \dots \frac{\partial H}{\partial q_{3N}}\right) 
+        $$
+
+        The uncompressibility condition means that 
+
+        $$
+        \Delta_x \dot{x}(x) = 0
+        $$
+
+        \item What is the symplectic property? Quantities like the Hamilton's equations can be written as follows:
+        $$
+        \dot{x} = M \frac{\partial H}{\partial x},
+        $$
+        where M is like 
+
+        $$
+        M = \begin{pmatrix} 0 & I\\ -I & 0\end{pmatrix}
+        $$
+
+        The symplectic property is written as follows:
+
+        $$M = J^TMJ$$
+
+        where J indicates the Jacobian matrix values.
+        
+
+        \item What is a Fourier expansion? \ref{chap: fourier}
+        \item What are normal modes in a polymer? Each normal mode corresponds to a specific pattern of motion in which all parts of the system move sinusoidally with the same frequency. These modes are "normal" in the sense that they are independent of each other and form a complete set of orthogonal functions.
+        \item What is an action integral? what does it mean if it is stationary? what it is possible to say about that path?
+        \item what are holonomic and non holonomic constraints?
+        \item what happens to the n of degrees of freedom?
+        \item What are Lagrange multipliers? \ref{chap: lagrange}
+        \item How could be the constraints expressed?
+        \item what equations should be satisfied in a way that the constraints are followed in time?
+        \item How can you write the hamilton's equations to follow all the conditions?
+        \item Is the hamiltonian conserved when a series of time-independent holonomic constraints are applied?
+        \item How are constraints inserted in a simulation? as forces
+        \item How does the Velocity Verlet change? A new force term is added
+        \item How are the Lagrange multipliers found in this case? You take the taylor expansion to the first derivative of the constraint formulaton given after a certain time $\Delta t$, then you apply one of the methods listed below
+        \item Describe and list some of the methods used to produce the $\tilde{\lambda_k}$ Lagrange multipliers
+        \item What are non-Hamiltonian systems?
+        \item What happens if the compressibility is negative to the phase space?
+        \item 
+    \end{itemize}
+
+    \item Chapter 2
+    \begin{itemize}
+        \item Why it is impossible to classically solve the dynamics of a biological system? Sheer size and Loschmidt's paradox
+        \item How are quantities computed in statistical mechanics?
+        \item What is an ensemble?
+        \item What is a thermodynamic system?
+        \item What is a thermodynamic equilibrium?
+        \item What are the fundamental thermodynamic parameters?
+        \item What is an equation of state? for an ideal gas?
+        \item What is a thermodynamic transformation
+        \item What is a state function? “state function is any function $f(n,P,V,T)$ whose change under any thermodynamic transformation depends only on the initial and final states of the transformation and not on the particular thermodynamic path taken” (Tuckerman, 2015)
+        \item Write the work that you need to change the number of particles or the value of the volume
+        \item What is the chamical potential?
+        \item How do you write the heat needed to have a certain change in temperature?
+        \item list the 3 thermodynamic laws
+        \item talk about the first
+        \item talk about the second
+        \item talk about the third
+        \item What is an ensemble? How do you calculate averages in an ensemble?
+        \item What does the Liouville theorem say?
+        \item Explain whait is the ensamble distribution function
+        \item In what conditions does it stay stationary?
+        \item How can you write the calculation of a quantity if the dependence of the ensemble distributino function from time is 0?
+        \item what is a partition function? how do you write it?
+    \end{itemize}
+    \item Chapter 3
+    \begin{itemize}
+        \item what is a microcanonical ensemble?
+        \item how do you write the equation for entropy?
+        \item whatt are the formula to obtain its components?
+        \item what is the Boltzmann equation?
+        \item what is a partition function? how do you write it?
+        \item how does the correction work?
+        \item how do you compute averages by using the partition function?
+        \item what is the classical Viriial theorem? proof
+        \item describe thermal equilibrium finding the partition function and the entropy function. WHat happens at the end?
+        \item write single free particle in ideal gas
+        \item describe Gibbs paradox qualitatively, but write the classical entropy equation and the Sackur-Tetrode entropy equation
+        \item How are positions set for a molecular dynamics simulation?
+        \item How are velocities set?
+        \item How is potential defined for a system? What is the name of a famous force field?
+    \end{itemize}
+    \item Chapter 4
+    \begin{itemize}
+        \item what are the fundamental properties of a canonical ensemble?
+        \item what type of ensemble cna be obtained from a canonical one?
+        \item How can you obtain the Helmhotz free energy? 
+        \item how do you obtain the other not conserved macroquantities from the helmhotz free energy'
+        \item how do you obtain hte canonical phase space distribution?
+        \item Once you derived the canonical phase space distribution, how do you derive the canonical partition function?
+        \item write the Boltzmann law
+        \item write the formula for heat capacity
+        \item Because of the fact htat in a canonical ensemble there is not a conservation of energy, how can you quantify this difference? When is the canonical ensemble very similar to a microcanonical one?
+        \item What type of observation you have to take into account to sample from a canonical ensemble? the fact htat the termperature is conserved
+        \item what type of thermostats we saw? describe all of them
+        \item talk about the theorem (fluctuation and dissipation theorem) that is exploited in langevin thermostats
+        \item What are extended phase thermostats?
+        \item what happens in a non-Hamiltonian system to the compressibility? What type of conservation you obtain involving the phase space?
+        \item How can you generalize the Liouville equation? what type of microcanonical partition function do you obtain at the equilibrium, given that you recognize all the constraints of your system?
+        \item What happens if you use this equation with the Nosé Hoover hamiltonian? what kind of correction is needed?
+        \item Explain principle behind Nosé-Hoover chains and write them. Do you obtain the correct canonical partition fucntion by calculating the microcanonical partition function for that complex Hamiltonian?
+    \end{itemize}
+    \item Chapter 5
+    \begin{itemize}
+        \item How do you obtain the isoenthalpic-isobaric ensemble?
+        \item How do you obtain the isothermal-isoenthalpic ensemble
+        \item what are the energies associated?
+        \item How do you obtain the two distributino functions?
+        \item How does the isothermal-isobaric partition function relates to the canonical one?
+        \item How does the Gibbs free energy relates to the isothermal-isobaric partition function?
+        \item What is the Maxwell square?
+        \item TEll about the Pressure virial theorem?
+        \item Tell about the Work Virial theorem? What type of "degree of freedom" is aded due to the variation in volume?
+        \item WHich method exploits the Work virial theorem to perform molecular dynamics simulations of the isobaric system?
+        \item What is the Hamiltonian that is conserved by the Andersen's barostat? When it becomes the enthalpy of the system?
+        \item Can you transform the Andersen's method in something that allows you to simulate isothermal-isobaric ensembles?
+        \item talk about the MTK algorithm
+        \item What kind of thermostat can be added to this barostat? how many Nosé-Hoover chains are produced for this scope?
+        \item What is the langevin piston principle?
+        \item Is the Langevin piston used in common simulations?
+    \end{itemize}
+    \item Chapter 6
+    \begin{itemize}
+        \item what is the euler's theorem? rewrite all the formulation for the energies of the various ensembles
+        \item what is a grand canonical ensemble?
+        \item what is the energy of a grand canonical ensemble?
+        \item How do you compute the main quantities for a grand canonical simulation?
+        \item explain how do you obtain the partition function and the phase space distribtuion function for the grand canonical ensemble
+        \item What is the result for ideal gas?
+        \item What is the value of the relative fluctuation $\frac{\nabla N}{N}$. When is the grand canonical ensemble similar to a canonical ensemble? when is the difference between these two ensembles negligible?
+    \end{itemize}
+    \item Chapter 7: Markov chains
+    \begin{itemize}
+        \item what is the starting principle? what can you obtain with a random process?
+        \item what does the central limit theorem say? 
+        \item How do you sample a distribution by using random numbers?
+        \item What happens if your variables if there are multiple components, which are independent from each other'
+        \item what is the principle behind the importance sampling approach?
+        \item what is the optimal value of h(x)
+        \item what allows you to do the $M(RT)^2$?
+        \item how do you write the detailed balance condition?
+        \item how do you write the acceptance probability of an event x given y?
+        \item When do you accept moves that have a r value lower than 1?
+        \item what happens to the probability associated to the coordinate in the phase space x with infinite number of trials?
+        \item What is a good choice for the trial probability? what happens if hte trial prob is symmetric to the Acceptance probability?
+        \item how do you sample a canonical ensemble? how do you solve the problem that, fi you move too much particles, you have a very intractably high difference in potential energy?
+        \item How do you perform the sampling by moving a single particle at a time?
+        \item what are the differences between MD and Monte Carlo?
+        \item how do you sample a isothermal isobaric ensemble
+        \item how do you sample a grand canonical ensemble?
+        \item what is hte purpose of hybrid monte carlo?
+        \item How do you do hybrid Monte Carlo
+        \item what type of attention you have to pay with the momenta?
+        \item WHat is the replica exchange Monte Carlo process?
+        \item How do you perform it?
+        \item What is the purpose of the transition path integral?
+        \item What kind of ensemble you can generate out of hte possible paths going from a point A to a point B??
+        \item What is a problem associated with the transition path integral? You have to know the path and you have to generate an initial configuration
+        \item How can you solve the previous problem in the context of proteins?
+    \end{itemize}
+
+\end{enumerate}

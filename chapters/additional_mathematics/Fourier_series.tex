@@ -1,0 +1,68 @@
+\section{Fourier Series} \label{chap: fourier}
+
+The aim of a Fourier expansion is to represent a given function as a sum of sinusoidal functions (sines and cosines) or complex exponentials. This expansion is particularly useful because it allows us to analyze and understand complex functions in terms of simpler sinusoidal components. A very good explanation can be found at
+
+The formula for a function defined by other periodic subfunctions is written as follows:
+
+\begin{equation}
+    f(t) = \sum_{n = -N}^{N}{c_n e^{2 \pi int}}
+\end{equation}
+
+each exponential can be considered as a sort of rotating vector, as stated in the video. The $c_n$ factor is indicative of the amplitude of that circle, while instead the term in the exponential would indicate the angle of start of the rotation. This term represents the complex exponential function with frequency $2 \pi n$ multiplied by time $t$. It's a periodic function with a frequency determined by the integer $n$. The complex exponential function captures the phase information of the corresponding frequency component. The function indicates a periodicity/frequency that is indicated by $|n|$, which is the considered modulating factor.
+If it's hard for you to understand that the term in the exponential is a periodic function, remember that
+$$
+e^{ix} = \cos{(x)} + i \text{sin}(x)
+$$
+\\
+Considering that you have a constant term in the summation, which is $c_0 e^{i0t}$, if you compute the integral as follows (given that you are considering a distance of 1, so the integral divided by one is the average)
+
+$$
+c_0 = \int_0^1{f(t)dt}
+$$
+
+You obtain the value of the coefficient. By taking the whole integral of $f(t)$
+
+$$
+\int_0^1{f(t)dt} = \int_0^1{(c_{-N} e^{-2 \pi iNt} + \dots + c_{N} e^{2 \pi iNt})dt}
+$$
+
+This corresponds to the sum of the averages of each part. However, the only vector not moving is the one with $c_0$, while the others have all an average of 0. In this way, you obtain the formula needed to compute the velue of $c_0$:
+
+\begin{equation}
+    \int_0^1{f(t)dt} = c_0
+\end{equation}
+
+In a clever way, you can multiply all the terms by an exponential of choice to make constant another rotation. Consequently, you can retrieve the general formula:
+
+\begin{equation}
+    c_n = \int_0^1{f(t) e^{-2 \pi n * it} dt}
+\end{equation}
+
+
+\section{Laplace transformation}
+
+From video \href{https://www.youtube.com/watch?v=n2y7n6jw5d0}{video}.
+
+Given that a Fourier transformation can be written as\\
+
+$$
+X(\omega) = \int{x(t) e^{-i\omega t}dt}
+$$
+
+Notice that when the frequency distribution hits the y axis, the position correspons to the value of the integral for the function x(t)
+
+While $\omega$ is a real number, the value X($\omega$) has a real and an imaginary component, from which we can calculate the magnitude. You can calculate $\omega(1), \omega(2)...$ and see that you obtain the magnitude plot (axis x with $\omega$).
+
+Therefore, from a fourier transformation of a function with an exponential and a periodic componen (e.g. $e^{-t} \sin{t}$), you obtain a magnitude graphs of the frequencies.
+
+The Laplace transformation can be written as
+
+\begin{align*}
+    X(s) &= \int_0^\infty{x(t) e^{-st} dt}\\
+    &=\int_0^\infty{x(t) e^{-(\alpha + i \omega)t} dt}\\
+    &= \int_0^\infty{x(t) e^{-\alpha t} e^{-i \omega t} dt}
+\end{align*}
+
+Therefore, the Laplace transformation of x(t) is the fourier transformation of $x(t) e^{-\alpha t}$.
+
+In the case of Laplace transformation, input with imaginary and real part. However, when s= 0 than

@@ -1,0 +1,42 @@
+\section{Methods to solve integrals}
+
+\subsection{Gauss Integral}
+
+\begin{equation}
+    \int_{-\inf}^{+\inf}{a e^{-b x^2 + cx + d} dx} = a \sqrt{\frac{\pi}{b}} \text{exp}\left(\frac{c^2}{4b} + \right)
+\end{equation}
+
+\textbf{Method to evaluate Gauss integrals with the Polar coordinates:}
+
+\begin{align*}
+    J &= \int_0^\infty e^{-x^2} \, dx = \int_0^\infty e^{-y^2} \, dy
+\end{align*}
+
+\begin{align*}
+    J^2 &= \left(\int_0^\infty e^{-x^2} \, dx\right) \left(\int_0^\infty e^{-y^2} \, dy\right) \\
+        &= \int_0^\infty \left(\int_0^\infty e^{-(x^2 + y^2)} \, dx\right) dy \\
+        &= \int_0^{2\pi} \left(\int_0^\infty e^{-r^2} r \, dr\right) d\theta \\
+        &= \int_0^{2 \pi}{[-\frac{1}{2} e^{-r^2}]_0^\infty d\theta} \\
+        &= \int_0^{2 \pi}{\frac{1}{2} d\theta}
+        &\rightarrow J = \sqrt[2]{\pi}
+\end{align*}
+
+\subsection{Gamma function}
+
+\[
+  \Gamma(x) = \int_0^\infty{t^{x-1} e^{-t} dt}  
+\]
+
+It is also valid that
+
+$$
+\Gamma(x) = (x-1)!
+$$
+
+and
+
+$$
+\Gamma(n) = (n-1)\Gamma(n-1)
+$$
+
+Another method is represented by the Laplace transform, which is described in chapter \ref{chap: lagrange}

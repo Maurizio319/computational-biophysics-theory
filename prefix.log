@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  6 AUG 2024 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.25)  14 MAR 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/maurizio/Documents/GitHub/computational-biophysics-theory/principal.tex
-(/home/maurizio/Documents/GitHub/computational-biophysics-theory/principal.tex
+**/home/maurizio/Documents/GitHub/computational-biophysics-theory/prefix.tex
+(/home/maurizio/Documents/GitHub/computational-biophysics-theory/prefix.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
-(prefix.tex (/home/maurizio/.miktex/texmfs/install/tex/latex/base/book.cls
+(/home/maurizio/.miktex/texmfs/install/tex/latex/base/book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
 (/home/maurizio/.miktex/texmfs/install/tex/latex/base/bk10.clo
 File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
@@ -691,306 +691,19 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count353
 \@vwid@loff=\dimen299
 \@vwid@roff=\dimen300
-))) (principal.aux)
-\openout1 = `principal.aux'.
+)))
+! Emergency stop.
+<*> .../computational-biophysics-theory/prefix.tex
+                                                  
+*** (job aborted, no legal \end found)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=433.62pt
-* \textheight=578.15999pt
-* \oddsidemargin=9.67395pt
-* \evensidemargin=9.67395pt
-* \topmargin=4.41725pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=69.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\c@lstlisting=\count354
-Package hyperref Info: Link coloring OFF on input line 15.
-(principal.out) (principal.out)
-\@outlinefile=\write3
-\openout3 = `principal.out'.
-
-
-
-Package siunitx Warning: Detected the "physics" package:
-(siunitx)                omitting definition of \qty.
-(siunitx)                
-(siunitx)                If you want to use \qty with the siunitx definition,
-(siunitx)                add 
-(siunitx)                
-(siunitx)                    \AtBeginDocument{\RenewCommandCopy\qty\SI}
-(siunitx)                
-(siunitx)                to your preamble.
-
-(/home/maurizio/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 15.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: wrapfig package is loaded.
-Package caption Info: End \AtBeginDocument code.
- (/home/maurizio/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
-\scratchdimen=\dimen301
-\scratchbox=\box128
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count358
-\MPscratchDim=\dimen302
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks44
-) (/home/maurizio/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/home/maurizio/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (/home/maurizio/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (/home/maurizio/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (/home/maurizio/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-
-Package chemgreek Info: Activating mapping `default' on line 15.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
- (/home/maurizio/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
- (/home/maurizio/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-
-{/home/maurizio/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] (principal.toc)
-\tf@toc=\write4
-\openout4 = `principal.toc'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19   \part
-            {Computational Biophysics - Lattanzi} [1
-
-] [2
-
-] (chapters/questions/questions_tuckerman.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-[3] [4] [5] [6] [7]) (chapters/10/canonical-ensemble.tex [8]
-Chapter 1.
-[9
-
-] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-[14]
-Overfull \hbox (37.06064pt too wide) detected at line 247
-[]
- []
-
-[15]) (pathria/CpminusCv.tex [16] [17] [18]
-</home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg, id=248, 853.1875pt x 338.26375pt>
-File: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg Graphic file (type jpg)
-<use /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>
-Package pdftex.def Info: /home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg  used on input line 120.
-(pdftex.def)             Requested size: 853.18542pt x 338.26291pt.
-
-Overfull \hbox (419.56543pt too wide) in paragraph at lines 120--121
-[][] 
- []
-
-[19 </home/maurizio/Documents/GitHub/computational-biophysics-theory/pathria/images/joule_experiment.jpg>]) [20] [21
-
-] (chapters/questions/questions_potestio.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[22]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[23]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[24]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[25]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[26]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[27]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[28]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[29]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[30]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[31])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48724pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48724pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.48724pt}.
-
-[32] [33
-
-] (chapters/additional_mathematics/Fourier_series.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-[34]) (chapters/additional_mathematics/LagrangeMultipliers.tex) (chapters/additional_mathematics/methods_solve_integ.tex [35]) (chapters/additional_mathematics/Laplace.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[36] [37]) (chapters/additional_mathematics/Cyclic_deriv.tex [38]) [39] (principal.aux)
- ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-09>
- ***********
-Package rerunfilecheck Info: File `principal.out' has not changed.
-(rerunfilecheck)             Checksum: F0E38411642F09AFDB769A910FD88167;5180.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 14 ({)
-### bottom level 
+ 
 Here is how much of TeX's memory you used:
- 24540 strings out of 474588
- 457995 string characters out of 5749044
- 1947555 words of memory out of 5000000
- 45935 multiletter control sequences out of 15000+600000
- 579270 words of font info for 87 fonts, out of 8000000 for 9000
+ 22863 strings out of 474588
+ 422096 string characters out of 5749044
+ 1923555 words of memory out of 5000000
+ 44781 multiletter control sequences out of 15000+600000
+ 559145 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,14n,82p,805b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0700.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/maurizio/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on principal.pdf (40 pages, 632922 bytes).
-PDF statistics:
- 1275 PDF objects out of 1440 (max. 8388607)
- 400 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 75i,0n,79p,432b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

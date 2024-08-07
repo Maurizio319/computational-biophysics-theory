@@ -1,0 +1,400 @@
+\section{Questions related to the course of Multiscale Methods for Soft matter Physics}
+
+All in notes if not specified\\
+\small{
+Legend:
+\begin{itemize}
+    \item tuckerman: Tuckerman book
+    \item not notes
+    \item demonstrate: make the demonstration
+    \item LJ: Lennard-Jones potential
+\end{itemize}
+}
+\hfill \\
+\small{
+Lessons questions
+\begin{itemize}
+    \item Lesson 1
+    \begin{enumerate}
+        \item What is soft matter?
+        \item Is active moving matter soft material?
+        \item What is the definition of soft matter?: Soft matter or soft condensed matter is a subfield of condensed matter comprising a variety of physical systems that are deformed or structurally altered by thermal or mechanical stress of the magnitude of thermal fluctuations.
+        \item What does it mean to define soft matter as mesoscopic? what are the consequences?
+        \item How should be defined the bigger compounds? what happens to time and space scale when those are utilized?
+        \item Will have the force to be specific?
+        \item What is the approximation that  allow to simplify quantum mechanical problems with classical mechanics?
+        \item How are thermal systems driven?
+        \item What is the Helmothz free energy? Which system is described? How is it obtained? (Tuckerman): The Helmholtz free energy, often denoted by A, is a thermodynamic potential that describes the amount of energy available to do useful work in a system at constant temperature and volume. It is obtained with the formula F = U - TS, where U is the potential energy, T is the temperature and S is the entropy.
+        \item What is the critical point? (See tuckerman) What happens?
+        \item What is the Ising model? How can you describe with it the critical point?
+        \item What is necessary to make Multiscale methods relevant? (hierarchy) The use of a mapping function
+        \item What procedure allows the coarse-graining?
+    \end{enumerate}
+    \item Lesson 2
+    \begin{enumerate}
+    	\item Where are defined experimental observations? In a Universe
+        \item What is the Newton principle of determinacy
+        \item What elements are defined in your experimental space?
+        \item What is Galilean invariance? In which conditions it is maintained?
+        \item What is a model? and what allows to build? A definition of a system
+        \item Is invariance maintained in case of isolated systems? and in the case of systems with several bodies?
+        \item When are forces conservative? In physics, a force is considered conservative if the work done by the force on an object is independent of the path taken by the object. In other words, the total mechanical energy of the system (kinetic energy plus potential energy) remains constant as the object moves within the force field.
+        \item What is the action integral? What does it tell? What does satisfy a path called stationary? (demonstrate) (tuckerman)
+        \item What does the action integral concept suggest? (tuckerman)
+        \item Write Euler lagrange equation
+        \item What is the formula of the Lagrangian?
+        \item What is the Legendre transformation (tuckerman)
+        \item What is the Hamiltonian? how is it obtained? (tuckerman)
+        \item Which are the Hamilton equations?
+        \item What happens to the Hamiltonian when the Lagrangian is conserved?
+        \item What is an ensamble? In classical statistical mechanics, the ensemble is a probability distribution over phase points (as opposed to a single phase point in ordinary mechanics), usually represented as a distribution in a phase space with canonical coordinate axes.
+        \item How is the value of a macroscopic observable normally obtained? (through a time average ...)
+        \item To what a time average can be converted? what is a phase space average?
+        \item When is a stochastic process is called ergodic? relating to or denoting systems or processes with the property that, given sufficient time, they include or impinge on all points in a given space and can be represented statistically by a reasonably large selection of points
+        \item How do we obtain a microcanonical ensamble? N, V, E 
+        \item What are Poisson brackets? When is a quantity conserved? (tuckerman)
+        \item What does the Liouville theorem say? It says that as the systems contained in a tiny region of phase space evolve according to classical mechanics, the volume they occupy remains constant.
+        \item When is the average of a quantity constant in time?
+        \item How can you write the average of that quantity in a microcanonical ensemble?
+        \item What is a partition function? what type of coefficient it has? (case of microcanonical ensemble)
+        \item Formula for entropy in the microcanonical ensamble
+    \end{enumerate}
+    \item Lesson 3
+    \begin{enumerate}
+        \item Describe the canonical partition function, what is the related coefficient?
+        \item What is a Boltzmann weight? it is the probability of a certain configuration, the lower is the energy associated to the configuration, the higher is the Boltzmann weight and viceversa
+        \item What type of ansatz you assume to simplify your work? What is the adiabatic approximation
+        \item Describe the Born-Oppenheimer approximation
+        \item What is meant by separability when talking about the potential energy? and additivity?
+        \item What is a multi-body potential? What type of truncation you can perform?
+        \item What are the differences between VdW and Coulomb interactions?
+        \item What is the difference between bonded and non-bonded interactions?
+    \end{enumerate}    
+    \item Lesson 4: calculation of interactions
+    \begin{enumerate}
+        \item How can be non bounded interactions truncated?
+        \item What is a periodic boundary condition? A periodic boundary is an important technique in a molecular dynamics simulation. It is a clever trick to make a simulation that consists of only a few hundred atoms behave as if it was infinite in size.
+        \item Why should you use periodic boundary conditions 
+        \item How do you write the energy due to cut-off short distance interactions, what's the tail correction?
+        \item In which case you can't absolutely ignore the epsilon tail energy?
+        \item What is the typical length for the cut-off distance?
+        \item what is the difference between LJ and VdW?
+        \item How do you compute the Coulombic and LJ interactions?
+        \item How are interactions classified as short and long?
+        \item Write formula for short potential and long range potential (consider PBC)
+        \item What is the minimum image convention?
+        \item What is the Verlet list algorithm
+        \item How do you avoid bumps in short potential? You add a correction switching function to be multiplied to the short range potentials.
+        \item How do you calculate long range potential? %TODO
+        \item What is an integrator? How does it use time?
+        \item Write Euler integrator
+        \item What is the problem with the Euler integrator?
+        \item What is the Euler-Cromer integrator?
+        \item What is the mathematical difference between the two previous integrators?
+        \item What is the meaning of symplectic?
+        \item What is a unitary matrix what is the case for the Euler-Cromer integrator?
+    \end{enumerate}
+    \item Lesson 5
+    \begin{enumerate}
+        \item How do you express the average of a quantity in equilibrium? Introduce the Liouville operator
+        \item How can you decompose the Liouville operator? What changes do the parts produce?
+        \item What problem do you face by doing that separation? what expansion comes into play? The trotter expansion
+        \item Write the Velocity Verlet algorithm, do the evolutions remind you of something?
+        \item What is conserved by applying the Velocity Verlet algo?
+        \item How is different the shadow H with respect to the real Hamiltonian?
+        \item How would you call then the Velocity Verlet algo?
+        \item ---------------------------------------------------------------------
+        \item How can you transform a time evolution? and in which condition?
+        \item How do time dependent correlation functions behave in time? Write the formula
+        \item How would you find in general a quantity A? But what's the problem with the integration process?
+        \item What's the idea behind stochastic integration? You take the values associated to a series of random inputs. Afterwards you take the average
+        \item How do you write an integration performed by using a uniform distribution?
+        \item What's the limit of stochastic sampling? What is the Bulk problem? (topic included also in the next lecture)
+    \end{enumerate}
+    \item Lesson 6: Markov chains
+    \begin{enumerate}
+        \item What happens when you sample with more and more dimensions?
+  	\item How can you improve the sampling process?
+        \item What is the objective of Markov chains?
+        \item On which configuration Markov chain structures depend upon?
+        \item What the transition probability matrix? how transitions are formalized?
+        \item What is the definition of ergodic (ergodicity expresses the idea that a point of a moving system, either a dynamical system or a stochastic process, will eventually visit all parts of the space that the system moves in, in a uniform and random sense. This implies that the average behavior of the system can be deduced from the trajectory of a "typical" point. Equivalently, a sufficiently large collection of random samples from a process can represent the average statistical properties of the entire process.)
+        \item What is therefore the density function obtained with a time going to infinity consequently, given that the ergodic hypothesis is true
+        \item What does the Frobenius theorem say? In the 
+        \item What is the behavior of the eigenvectors of a transition matrix over time? What is the detailed balance?
+        \item How are computed the elements in the transition matrix?
+        \item Write general formulation of the Metropolis
+        \item Write the Metropolis algorithm using the Boltzmann equation for the distribution
+        \item What can you calculate at the end
+        \item What if a transition is rejected? 
+        \item What is a sweep? When is an operation of order n? (make use of the example with the spins)
+        \item When do you prefer to use Markov chains? instead of Molecular Dynamics?
+        \item What is the difference between Markov chains and Molecular Dynamics?
+    \end{enumerate}
+    \item Lesson 7: Brownian motion
+    \begin{enumerate}
+    	\item What is the Brownian motion? What does it represents?
+        \item In which relation are the short atomistic time scales, the relaxation times of the colloids and the diffusion time?
+	\item What steps would you like to follow to proceed with the coarse graining?
+	\item what is the markov property? and how do you use it in this context?
+        \item What is the Smoluchovski equation?
+        \item How do you write the infinitesimal change of f in time? What equation does it reminds?
+        \item What is the time derivative of f? (Fokker Plank equation )
+        \item How are newtonian systems positions related to the time of simulation
+        \item How Diffusion dynamics is different? What is the general solution?
+        \item Make an example of solving equation of dynamics for diffusion
+    \end{enumerate}
+    \item Lesson 8A: the Fluctuation-Dissipation theorem
+    \begin{enumerate}
+        \item What case we considered up to now? Why it is not possible to use the Hamiltonian formulation in biological systems?
+        \item Is a normal system (like a biological solution) Hamiltonian? No, because of he friction energy that is dissipated
+        \item what is gamma in the Force of friction $\vec{F}_{\text{friction}} = - \gamma \vec{v}$: the $\gamma$ factor is equal to $\gamma = 6 \pi \nu a$, where a is the diameter of the bead, and $\nu$ is the viscosity of the medium.
+        \item Describe the forces in that system, average? correlation?
+        \item What is $\tau$?
+        \item Find the diffusion formula?
+        \item What is the Langevin equation? The Langevin equation is a stochastic differential equation that describes the motion of a particle undergoing Brownian motion in a fluid or a similar random environment.
+        \item What is the equipartition theorem?
+        \item How do you find the amplitude of correlation g?
+        \item What does the Fluctuation-Dissipation theorem say? What are the important points? What thermostat uses it? (langevin) $\rightarrow$ It correlates the random forces and the cappacity of diffusion.
+        \item What is a Langevin thermostat? A Langevin thermostat is a mathematical and computational tool used in molecular dynamics simulations to mimic the effects of a thermal reservoir on a simulated system. It is commonly employed to maintain a desired temperature in the simulation by introducing a stochastic (random) force that mimics the collisions of the particles with the surrounding solvent or thermal bath.
+    \end{enumerate}
+    \item Lesson 8B: The radial distribution function
+    \begin{enumerate}
+        \item What is a partition function
+        \item Write in two different forms the one for the canonical ensemble
+        \item How can you simplify the calculation of the average of a quantity a (<A>)?
+        \item How do you obtain the correlation function?
+        \item How do you obtain the partition function?
+        \item How is the radial function for a non-interacting system (ideal gas)?
+        \item How is the radial function taking into consideration just a single particle
+        \item How is the radial function taking into consideration just two particle, what assumptions do you make?
+        \item How are the partition function and the density function related?
+        \item What is the radial distribution function final formula?
+        \item How is hte graph of that distribution? why are there bumps?
+        \item What type of reduction did you obtain by introducing the radial distribution function?	
+        \item How can you calculate energy, pressure on the base of that?
+    \end{enumerate}
+    \item Lesson 9: Free Energy calculation
+    \begin{enumerate}
+        \item which is the partition function of the canonical ensamble
+        \item How is it calculated in case of ideal gas?
+        \item write the Helmohotz free energy formula
+        \item With what type of integral you can rewrite the difference formula. How can you write it if you assume that just the potential can change in value?
+        \item Write consequently the Kirkwood Thermodynamical Integration theorem
+        \item What does the Kirkwood Thermodynamical Integration theorem allows you to do? To calculate differences in free energies
+        \item Obtain $P_0(v)$, which is the probability associated to a certain value of energy, which shape does it have?
+        \item Supposing the Gaussian shape, what's the inequality that you obtain?? What is the gibbs Bogoliubov inequality?
+        \item What does the calculation of the free energy difference allows you to do
+        \item How can you simplify the calculation? make the example regarding the solvated ion
+        \item What is a reaction coordinate
+        \item Make the example taking the distance as collective coordinate
+    \end{enumerate}
+    \item Lesson 10: Renormalisation group
+    \begin{enumerate}
+        \item what is a renormalization group in biophysics and why it is called a group? 
+        In biophysics, as in other fields of physics, the renormalization group (RG) is a theoretical framework used to understand the behavior of 
+        complex systems across different scales. The term "group" in renormalization group refers to a mathematical structure, specifically a group of 
+        transformations. The renormalization group provides a systematic way to analyze how physical properties change as we zoom in or out, or as we
+         move through different energy or length scales.
+        \item what happens to a liquid with high Temperatures? and with low temperatures? What happens to the partition function?
+        \item How is entropy while varying the temperature?
+        \item What is phase transition?
+        \item What is the order of a phase transition? What happens at the critical point
+        \item How is correlation changing outside the CP and in the CP?
+        \item When is a system self-similar? what does it mean? To how many parameters depend the correlation length? 
+        \item How would you write the hamiltonian of the Ising model by making use of the renormalisation group? And the partition function?
+        \item What is the meaning of defocusing? How can defocusing be done?
+        \item What is a projection operator?
+        \item How are the partition function and the free energy after defocusing?
+        \item What happens when you defocus your system in terms of entropy? And what free energy do you obtain?
+        \item What happens to a correlation function at each step if not on a critical point? what if on a critical point?
+    \end{enumerate}
+    \item Lesson 11: The process of coarse graining and the multibody potential
+    \begin{enumerate}
+        \item What is the aim of Coarse Graining?
+        \item How are interactions called in Coarse Graining?
+        \item What is a reference?
+        \item What are the possible modelling approaches?
+        \item How is the partition factor for the all atom model? and for the CG model?
+        \item What free energy formula can you obtain from the CG partition function?
+        \item How is the degeneracy factor?
+        \item How can you write the mapping process? How mapping has to be? (specific)
+        \item How is the CG process?
+        \item Is mapping invertible?
+        \item What is the consistency condition?
+        \item Obtain the potential energy that you get coarse-graining the system
+        \item what is the multibody potential of mean force?
+        \item When is your CG system ok? talking about the measured potential energy
+        \item What is transferability? In the context of coarse-graining in molecular simulations or modeling, "transferability" refers to the ability of a coarse-grained model or representation to accurately capture and reproduce relevant properties of the system being studied. Transferability implies that the parameters and interactions used in the coarse-grained model, which are often derived from a more detailed or atomistic representation, are applicable and meaningful across different conditions or environments. This happens when the coarse grained potential is similar to the multibody potential of mean force?
+        \item How do you allow the consistency condition for the momenta?
+    \end{enumerate}
+    \item Lesson 12: How is it possible to equate our potential to the multibody potential?
+    \begin{enumerate}
+        \item How can we force U(R) to satisfy that condition?
+        \item What is relative entropy?
+        \item How do you compute the distance between two distributions? What is the most important probability?
+        \item How do you compute $P_r(r|U)$? What is the degeneracy factor?
+        \item What type of values can the w have?
+        \item What is the value of the partition function?
+        \item What is the mapping entropy from the relative entropy?
+        \item How do you average the atomic probabilities? what does this allow you to do with the mapping entropy?
+        \item How do you write a Kullback-Lenbler distance that is indicative of the coarse graining quality ?
+        \item When and how does the mapping entropy change? By changing the mapping, in fact, the relative entropy can be consdiered as a distanceof two probability distributions that depend on mappign.
+        \item What do you obtain by mapping in terms of relative entropy? a distance
+        \item What formula of relative entropy do you obtain that should be minimized? (Gibbs-Bogoliubov inequality)
+        \item What is the condition that is satisfied when you are at the minimum of the relative entropy? See the signed element
+        \item What is also conserved in case in which the relative entropy is at the minimum? The radial distribution functions computed for the coarse grained and the all atom system.
+        \item Make the straightforward conclusion.
+    \end{enumerate}
+    \item Lesson 13
+    \begin{enumerate}
+        \item What is the Boltzmann inversion process?
+        \item Write the process to obtain the potential energy through Boltzmann inversion
+        \item What is a more general way to write the Boltzmann inversion?
+        \item What happens if we have more  than a single collective coordinate? explain the two possible cases
+        \item What is the double counting problem?
+        \item What is the iterative solution?
+        \item Write the case where you consider as the collective coordinate the distance between the particles
+        \item What problems you have to face in cases with a number of interacting particles? If you consider the distance as the collective coordinate, what are you minimizing and what not?
+    \end{enumerate}
+    \item Lesson 14: Inverse Monte Carlo
+    \begin{enumerate}
+        \item What is the problem that you have with Boltzmann Inversion?
+        \item How do you solve the limitation?
+        \item What is Inverse Monte Carlo?
+        \item What do you have to compute by using inverse Monte Carlo? (susceptibility matrix)
+        \item What does the susceptibility matrix tell you?
+        \item How do you calculate the infinitesimal change in potential energy after
+        \item How does Monte Carlo converge?
+        \item obtain from relative entropy the susceptibility matrix
+        \item What softer do you generally use to parametrize the CG  potential?
+        \item Is the cut-off important in Boltzmann inversion?
+        \item Is parametrization always correct or is it specific?
+    \end{enumerate}
+    \item Lesson 15: Force Matching
+    \begin{enumerate}
+        \item What is force matching?
+        \item What is the MB force field and how can you write it?
+        \item How do you compare force fields?
+        \item How can you also write the comparison of the atomic force field and the coarse grained force field (in terms of the multibody force field)?
+        \item What do you deduce from that relation?
+        \item How can you find an F (coarse grained f.f.) which is as close as possible to f (atomistic f.f.) (concept)? ($\chi^2$ method) 
+        \item What is the meaning of $\chi^2$ applied to this problem? (until plane explanation)
+        \item How do you find the minimum in the difference $\vec{f} - \vec{F}$
+        \item What happens when all your interactions are all independent?
+        \item How does $\chi^2$ differentiate himself from relative entropy?
+        \item Why Force Matching does not produce very good radial distribution functions?
+    \end{enumerate}
+    \item Lesson 16: Protein models
+    \begin{enumerate}
+        \item what does the Anfisen experiment tell us?
+        \item what is the protein folding funnell?
+        \item why to use CG?
+        \item what type of approaches are available?
+        \item what models are available?
+        \item what is a lattice model?
+        \item which types protein models exist?
+        \item what is a martini model?
+        \item what is a go model?
+        \item what is inferred by saying that proteins are conformationally selected by ligands?
+        \item How is the vibrational nature of proteins involved?
+        \item what is a elastic network model?
+        \item What are modes?
+        \item how can you evaluate slow modes in ENMs?
+        \item what are quasi-rigid domain description models?
+    \end{enumerate}
+    \item Lesson 17:
+    \begin{enumerate}
+        \item what is a polymer?
+        \item what are the types of a polymer?
+        \item what quantities you should consider?
+        \item what is the contour length
+        \item what is hte end to end distance? what is on average if symmetric polymer
+        \item what is the radius of gyration?
+        \item what are the models generally used for polymer modelling?
+        \item what are freely jointed chains?
+        \item what is a kreatky-porog model? how do you write the bending potential? How do you write the correlation between the bonds orientations?
+        \item what is the persistance length? and the kuhn length?
+        \item what are self-avoiding chains? How does the potential change? and the end to end distance? how can you describe the average difference in volume?
+        \item what is the kremer-grest model?
+        \item how can you evaluate the stiffness of a polymer?
+        \item main characteristics of DNA
+        \item what is oxDNA
+        \item what are the resolutions types used on the base of the length wanted
+        \item what is a crumpled globule model?
+    \end{enumerate}
+    \item Lesson 18
+    \begin{enumerate}
+        \item what is a topological problem in soft matter?
+        \item what are for example topologies in biology?
+        \item what is a knot mathematically?
+        \item how do you define a knot?
+        \item what are Reidemaster moves?
+        \item how do you distinguish knots? By the number of overlaps/crosssings which is at the minimum.
+        \item properties of a knot
+        \item which are the most common types of knots? torus knots twist knots
+        \item can you define knots in open chains?
+        \item what is the concept of minimally interfering closure? with what process do you find it?
+        \item what is a knotoid? how can it help you?
+        \item what are in-protein links?
+        \item what is a Gauss number in this context?
+        \item to what is proportional the folding rate? to what is negatively correlated? -- proportional to Gauss number, negatively correlated to topological complexity.
+        \item what is knot dynamics? what type of chain model is normally used in this context?
+        \item what is the transmission coefficient?
+        \item where do the knots tend to position themselves? why not on the stationary nodes? In which positions do they move? 
+        \item how can you intend the position of a knot on a length? what type of ... you expect on the stationary points?
+        \item what is interesting about knots in proteins? why you don't expect them?
+        \item what characteristics are necessary for self-folding? what type of measures do you adopt as a consequence?
+        \item what is an elastic folder model? what is its main role?
+        \item what is the process through which you evlaluate the folding rate through the elastic folder model
+        \item What type of measure do you adopt to evaluate the folding process?
+        \item what is the RMSD?
+    \end{enumerate}
+    \item Lesson 19 - multi-resolution and dual resolution models
+    \begin{enumerate}
+        \item which are the top-down and the bottom-up models?
+        \item what is the purpose of adaptive resolution simulations?
+        \item what is a switching function? How it is used for the scoe
+        \item how do you write the force of a system described by a multi-resolution model?
+        \item what is the purpose of quasi-grand canonical (AdResS) simulations? what is changing and in what condition?
+        \item what are the problems related to AdResS?
+        \item what is the hamiltonian version of AdResS? what kind of force you obtain?
+        \item what is the problem that you observe by looking to the force formula? In which way do the particles behave on the interface between AA and CG?
+        \item what kind of correction you have to give to compensate the drift force (precedent point)?
+        \item what kind of system do you have after the first correction?
+        \item how can you obtain a system that has instead equal density? make a scheme at the end
+        \item Is it possible to have a system with same density and pressure?
+        \item what type of advantage you have by using a multi-resolution scheme in the water-gas model?
+        \item how do you measure normally the chemical potential? how can you use the multi-resolution scheme to improve it?
+        \item what is the fast calculation of solvation energy process?
+        \item what can you also investigate with the multi-resolution models? of proteins
+        \item what is a dual resolution? what are the main problems?
+        \item how you solve them?
+        \item what is the problem that you encounter in the previous point?
+        \item what can you solve with both the methods?
+    \end{enumerate}
+    \item Lesson 20: Fluids
+    \begin{enumerate}
+        \item what does the navier stokes law sais? why you can't use it in MD
+        \item what is a celular automata?
+        \item what is multiparticle collision dynamics? what is the reasoning behind stochastic rotation dynamics?
+        \item what is the strategy (the passages) behind stochastic rotation dynamics?
+        \item is it possible to use multiparticle collision dynamics with different types of particles
+        \item how can you study hydrodynamics?
+        \item what is Dissipative particle dynamics?
+    \end{enumerate}
+    \item Lesson 21: Neural Networks
+    \begin{enumerate}
+    	\item General: neurons, activation functions, ultiple layers
+    	\item How do you train a neural network? What is hte MSE?
+    	\item Write correlation boltzmann weight and bayesian theorem
+    	\item What is an affine transformation? it gives you the linear results without non-linear transformation
+    \end{enumerate}
+    \item Lesson 22: Machine learning usage
+    \begin{enumerate}
+    	\item What assumption has to be done to allow the computation of energies through neural networks? How has the input to be transformed also?
+    	\item What is the structure of the NN?
+    	\item Can you characterize local structures with neural networks? make water example
+    	\item Tell how it is possible to sample CG structures
+    \end{enumerate}
+\end{itemize}

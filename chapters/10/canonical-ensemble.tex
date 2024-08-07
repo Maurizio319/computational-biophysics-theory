@@ -164,9 +164,14 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 
 	Where $\mathcal{H}(x)$ is the energy estimator.
 	Taking the average of the Hamiltonian the energy is obtained.
-	Also an estimator of temperature can be obtained, and this will be related to the kinetic energy by applying the equipartition theorem:
+	Also an estimator of temperature can be obtained, and this will be related to the kinetic energy by applying the \textbf{equipartition theorem}:
 
 	$$\biggl\langle\sum\limits_{i}\frac{\vec{p}_i^2}{2m_i}\biggr\rangle = \frac{3}{2}NkT\Rightarrow T = \frac{2}{3Nk}\biggl\langle\sum\limits_i\frac{\vec{p}_i^2}{2m_i}\biggr\rangle = \frac{1}{3Nk}\biggl\langle\sum\limits_i\frac{\vec{p}_i^2}{m_i}\biggr\rangle = \langle\mathcal{T}(x)\rangle$$
+
+	\begin{center}
+		\textbf{The equipartition theorem provides a valuable connection between statistical mechanics and thermodynamics by relating the average kinetic and potential energy of a system to its temperature.}
+	\end{center}
+
 
 	So $\mathcal{T}(x)$ is the temperature estimator, so that temperature is the average of the estimator:
 
@@ -199,6 +204,14 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 		So when working with a thermodynamics system the fluctuation with respect to energy are negligible.
 		So in the thermodynamics limit the energy fluctuations in the canonical ensemble are negligible.
 		The difference between the microcanonical and canonical ensemble is that the energy is fixed only in the first, but in the second the fluctuation of the energy is negligible, so that from a practical point of view all the results from the two ensembles are equivalent.
+
+		It is possible to calculate also $<(\Delta E)^3> = (<E> - U)^3$. It is possible to demonstrate that\\
+		
+		$$
+			\frac{\partial^2 U}{\partial \beta^2} = <E^3> - 3 <E^2>U + 2U^3
+		$$
+
+
 
 	\subsection{Pressure estimator}
 	Considering pressure:
@@ -250,3 +263,63 @@ Now when dealing with the canonical ensemble the partition function has to be fo
 	So the pressure estimator is:
 
 	$$\mathcal{P}(\vec{r}, \vec{p}) = \frac{1}{3V}\sum\limits_i\biggl[\frac{\vec{p}_i^2}{m_i}+ \vec{F}_i\cdot\vec{r}_i\biggr]$$
+
+	\section{Entropy in a canonical system with respect to microcanonical one}
+
+	The formula for the entropy in the canonical system is written as follows:
+
+	$$
+	S = - k_B <\ln P_r> = - k_B \int{P_r \ln{P_r} d\omega}
+	$$
+
+	Notice that, if the energies are all equal, then also the probabilities are the same and can be written as follows
+
+	$$
+	S = - k_B \sum_{r = 1}^\Omega{\frac{1}{\Omega} \ln{\left(\frac{1}{\Omega}\right)}} = k \ln \Omega
+	$$
+
+	Which is exactly the form for the entropy in the microcanonical system.
+
+
+	You can find a very telling formula with the following passages:
+
+	\begin{align*}
+		S &= - k_B \int{P_r \ln{P_r} d\omega} \\
+		&= - k_B \int{P_r (-\beta H - \ln{Z}) d\omega} \\
+		&= k_B (\beta <H> + \ln{Z}) \\
+		S &= \frac{1}{T} U + k_B \ln{Z}
+	\end{align*}
+
+	You can than play with the $\ln Z$ 
+
+	\begin{align*}
+		\frac{\partial}{\partial \beta} (\ln Z) &= \frac{1}{Z} 
+		\frac{\partial Z}{\partial \beta} \\ 
+		&= \frac{1}{Z} 
+		\int{\frac{\partial}{\partial \beta} (\text{exp}(-\beta H)) d\omega} \\
+		&= 1/Z \int{-H \text{exp}(-\beta H) d\omega} \\
+		&= - <H> = -U
+	\end{align*}
+
+	Therefore $U = - \frac{\partial}{\partial \beta}(\ln{Z})$ and 
+
+	$$
+	S = k_B T \frac{\partial}{\partial T}\ln{Z} + k_B \ln{Z} = k_B \frac{\partial}{\partial T}(T \ln{Z})
+	$$
+
+	From here, you can observe that
+
+	$$
+	A =  - k_B T \ln{Z}
+	$$
+
+
+\subsection{Canonical systems}
+
+\textbf{particles with a radius and interacting between themselves and with the wall}
+
+L (Lagrangian)
+
+$$
+L = \sum_i{\frac{1}{2} m \vec{\dot{r}}}^2 - \left(\sum_{i<j}{u(r_{ij})} + \left[\sum_{i\alpha}{u_{wall}(z_{i\alpha}) + u_{wall}(L - z_{i\alpha})}\right]\right)
+$$

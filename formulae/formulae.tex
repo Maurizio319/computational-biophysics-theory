@@ -16,8 +16,16 @@
 \tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]
 \begin{document}
 
+
 \begin{center}{\huge{\textbf{Computational biophysics}}}\\
 \end{center}
+
+\begin{figure}[h]
+    \center
+    \includegraphics[width=0.3\textwidth]{/home/maurizio/Downloads/table_quantities.png}
+\end{figure}
+
+
 \noindent
 \begin{multicols*}{4}
 \noindent
@@ -246,8 +254,9 @@
                     \begin{minipage}{0.95\textwidth}
                         State function $dS = \frac{1}{T}dE + \frac{P}{T}dV - \frac{\mu}{T}dN$\\
                         $\left(\frac{\partial S}{\partial E}\right)_{V, N} = \frac{1}{T}\qquad\left(\frac{\partial S}{\partial V}\right)_{N, E} = \frac{P}{T}\qquad\left(\frac{\partial S}{\partial N}\right)_{V, N} = \frac{\mu}{T}$\\
-                        Boltzmann relation $S(N, V, E) = k\ln\omega(N, V, E)$\\
+                        Boltzmann relation $S(N, V, E) = k\ln\Omega(N, V, E)$\\
                         Distribution function $\begin{aligned}\Omega(N, V, E) &= M_N\int d\vec{p}\int_{D(V)}d\vec{r}\delta(\mathcal{H}(\vec{r}, \vec{p})-E) \\&= M_N\int dx\delta(\mathcal{H}(x)-E)\\ M_N &= \frac{E_0}{N!h^{3N}}\end{aligned}$\\
+                        where $\frac{1}{h^{3N} N!}$ for undistinguishability \\
                         $A = \langle a\rangle = \frac{M_N}{\Omega(N, V, E)}\int dxa(x)\delta(\mathcal{H}(x)-E) = \frac{\int dxa()\delta(\mathcal{H}(x)-E)}{\int dx\delta(\mathcal{H}-E)}$\\
                         $\left\langle x_i\frac{\partial\mathcal{H}}{\partial x_j}\right\rangle = \frac{M_N}{\Omega(N, V, E)}\frac{\partial}{\partial E}\int_{\mathcal{H}(x)<E}dxx_i\frac{\partial(\mathcal{H}-E)}{\partial x_j}$\\
                     \end{minipage}
@@ -459,10 +468,19 @@
                         Microcanonical $\Omega(N, V, E) = M_N\int dx_1dx_2\delta(\mathcal{H}_1(x_1)+\mathcal{H}_2(x_2)-E)$\\
                         Distribution function $\ln f(x_1) = \ln\int dx_2\delta(\mathcal{H}_1(x_1)+\mathcal{H}_2(x_2)-E)$\\
                         $\ln f(x_1)\approx \ln\int dx_2\delta(\mathcal{H}_2(x_2)-E)-\frac{\partial}{\partial E}\ln\int dx_2\delta(\mathcal{H}_2(x_2)-E)\mathcal{H}_1(x_1)$\\
-                        $Q(N, V, T) = \frac{1}{N!h^{3N}}\int dxe^{-\beta\mathcal{H}(x)}\qquad \beta = \frac{1}{kT}$\\
+                        $Q(N, V, T) = \frac{1}{N!h^{3N}}\int dxe^{-\beta\mathcal{H}(x)} = \sum_i{g_i e^{\beta E_i}}\qquad \beta = \frac{1}{kT}$ \\
+                        $P(E) dE = \frac{e^{-\beta E} dE g(E)}{\int_0^{\infty}{e^{-\beta E} g(E) dE}}$ 
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermal contact};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        While in the case of a microcanonical ensemble the energy in the system is fixed, in the canonical case it is not. Imagine that you have multiple molecules; if the total energy is not fixed, then the partition function is calculated taking into account the Boltzmann weights of the possible energy levels. On the contrary, in the microcanonical case, the energy is fixed and only a certain combination of configurations will be allowed.
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Connection canonical microcanonical};
             \end{tikzpicture}
             \begin{tikzpicture}
                 \node [mybox] (box1){%
@@ -478,6 +496,26 @@
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {From micro to macro};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        When free particle moving on a direction $Q = \left(\frac{2 \pi m}{h^2 \beta}\right)^{1/2} X$ with thermal wavelength $\Lambda = h \left(\frac{\beta}{2 \pi m}\right)^{1/2}$
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Other information};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        When series of states separated by infinite number of equally spaced nondegenerate energy levels $Q = \frac{1}{1 - e^{-\beta \epsilon}}$. In this situation $p_i = \frac{e^{-\beta \epsilon_i}}{q} = (1 - e^{- \beta \epsilon}) e^{-\beta \epsilon_i}$\\
+                        \textbf{collection of N independent molecules}\\
+                        Energy: $E_i = \epsilon_i(1) + \epsilon_i(2) + \dots + \epsilon_i(N)$\\
+                        Partition function: $Q = \sum_i{e^{-\beta \epsilon_i(1) - \beta \epsilon_i(2) \dots - \beta \epsilon_i(N)}} = \left(\sum_i{e^{-\beta \epsilon_i}})\right)^N = q^N$\\
+                        $\frac{q^N}{N!}$ if undistinguishable particles
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Special cases};
             \end{tikzpicture}
         \end{minipage}
     };
@@ -677,10 +715,13 @@
             \begin{tikzpicture}
                 \node [mybox] (box1){%
                     \begin{minipage}{0.95\textwidth}
-                        $\tau(A)\left(\frac{\partial A}{\partial N}, V, T\right) = -PV\qquad d\tilde{A} = -PdVpSdT-Nd\mu\qquad \tilde{A}(\mu, \lambda V, T) = \lambda\tilde{A}(\mu, V, T) $\\
-                        Partition function $\sum\limits_{N=0}^{\infty}\frac{1}{N!h^{3N}}e^{\beta\mu N}\int dxe^{-\beta\mathcal{H}(x, N)} = e^{\beta PV}$\\
+                        $\tau(A)\left(\frac{\partial A}{\partial N}, V, T\right) = -PV\qquad \\
+                        \tilde{A} (\mu, V, T) = A(N(\mu), V, T)- \mu N(\mu) \qquad d\tilde{A} = -PdV-SdT-Nd\mu $\\
                         $\mathcal{E}(\mu, V, T) = \sum\limits_{N=0}^{\infty}\frac{1}{N!h^{3N}}e^{\beta\mu N}\int dxe^{-\beta\mathcal{H}(x, N)} = \sum\limits_{N=0}^\infty e^{\beta\mu N}Q(N, V, T) = e^{\beta PV}$
-                        $\frac{PV}{kT} = \ln\mathcal{E}(\mu, V, T)\qquad z = e^{\beta\mu}\qquad \mathcal{E}(z, V, T) = \sum\limits_{N=0}^{\infty}z^NQ(N, V, T)$\\
+                        $\frac{PV}{kT} = \ln\mathcal{E}(\mu, V, T)\qquad z (\text{fugacity}) = e^{\beta\mu}\qquad \mathcal{E}(z, V, T) = \sum\limits_{N=0}^{\infty}z^NQ(N, V, T)$\\
+
+                        Grand potential: $\tilde{A} = kT \ln{\mathcal{E (\mu, T, V)}}$\\
+
                         $\langle N\rangle = \frac{1}{\mathcal{E}(\mu, V, T)}\sum\limits_{N=0}^{\infty}Ne^{\beta\mu N}Q(N, V, T) = kT\left(\frac{\partial}{\partial\mu}\ln\mathcal{E}(\mu, V, T)\right)_{V, T}$\\
                         $\langle N\rangle = z\frac{\partial}{\partial z}\ln\mathcal{E}(z, V, T)$\\
                     \end{minipage}
@@ -990,5 +1031,107 @@
     };
     \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Advanced methods};
 \end{tikzpicture}
+\begin{tikzpicture}
+    \node [mybox] (box){%
+        \begin{minipage}{0.233\textwidth}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        Conversion Celsius to Kelvin: $\theta/°C = T/K - 273.15$\\
+                        
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Principles};
+            \end{tikzpicture}
+        \end{minipage}
+        
+    };
+    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Physical chemistry};
+\end{tikzpicture}
+\begin{tikzpicture}
+    \node [mybox] (box){%
+        \begin{minipage}{0.233\textwidth}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        Energy levels of a molecule with mass m in a container of length L: $E_n = \frac{n^2 h^2}{8 m L^2}$ with $n = 1,2,3,4 \dots$
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Quantum mechanics};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        Binomial coeff when N to infinity: $\frac{N!}{n_1! n_2! \dots n_n!} = \frac{N^N}{n_1^{n_1}n_2^{n_2}\dots n_n^{n_n}}$ \\
+                        Saddle point: when $H = f_{xx}(x_0, y_0) f_{yy}(x_0, y_0) - f_{xy}(x_0, y_0)^2$ < 0. \\
+                        Variance: $(\Delta A)^2 = \langle (A - \langle A \rangle)^2 \rangle = \langle A^2 \rangle - \langle A \rangle^2$\\
+                        \textbf{Geometric series and sequence}\\
+                        Geometric sequence is collection of terms, series is the sum.\\
+                        Nth value: $a_n = a_1 (r)^{n-1}$ where $r$ is the common ratio \\
+                        Partial sum: $S_n = \frac{a_1[1-r^n]}{1-r}$\\
+                        The geometric mean $\sqrt{n_a n_b}$ gives the value in the middle between a and b of the sequence\\
+                        Sum of infinite series: $S_\infty = \frac{a_1}{1-r}$ if series converges ($|r| < 1$), otherwise diverges
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Mathematics};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        First law: $\Delta U = \Delta Q - \Delta W$\\
+                        Second law: $dS = \frac{dQ|_{rev}}{T}$\\
+                        Third law: $S(T = 0K) = 0$
+                        Therefore $dU = TdS - P dV + \mu dN$\\
+                        Specific heat (Heat capacity)\\
+                        $C_V = \left(\frac{\partial E}{\partial T}\right)_{V, N} = T \left(\frac{\partial S}{\partial T}\right)_{V, N}$\\
+                        $C_P = \left(\frac{\partial H}{\partial T}\right)_{P, N} = T \left(\frac{\partial S}{\partial T}\right)_{P, N}$\\
+
+                        Thermal expansion: $\alpha = \frac{1}{V} \left(\frac{\partial V}{\partial T}\right)_{P,N}$\\
+                        
+                        Isotherm. compressibility: $\alpha = -\frac{1}{V} \left(\frac{\partial V}{\partial P}\right)_{T}$\\
+                        
+                        Adiabatic compressibility: $\alpha = -\frac{1}{V} \left(\frac{\partial V}{\partial P}\right)_{S,N}$\\
+                        
+                        $k = 1.38 * 10^{-23} J K^{-1}$\\
+                        
+
+                        When quantities $x, y, z$ are mutually related\\
+                        
+                        $\left(\frac{\partial x}{\partial y}\right)_z = 1/\left(\frac{\partial y}{\partial x}\right)_z$\\
+                        $\left(\frac{\partial}{\partial z}\left(\frac{\partial y}{\partial x}\right)_z\right)_x = \left(\frac{\partial}{\partial x}\left(\frac{\partial y}{\partial z}\right)_x\right)_z $\\
+                        $\left(\frac{\partial x}{\partial y}\right)_z \left(\frac{\partial y}{\partial z}\right)_x \left(\frac{\partial z}{\partial x}\right)_y = -1$\\
+                        $\left(\frac{\partial x}{\partial y}\right)_w = \left(\frac{\partial x}{\partial y}\right)_z + \left(\frac{\partial x}{\partial z}\right)_y \left(\frac{\partial z}{\partial y}\right)_w$ \\
+                        
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermodynamic relationships};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        $U - U(0) = - \left(\frac{\partial \ln{Q}}{\partial \beta}\right)_V$ \qquad
+                        $S = \frac{U - U(0)}{T} + k \ln{Q}$ \qquad
+                        $p = kT \left(\frac{\partial \ln{Q}}{\partial V}\right)_V$\\
+                        $H - H(0) = -\left(\frac{\partial \ln{Q}}{\partial \beta}\right)_V + kTV \left(\frac{\partial \ln{Q}}{\partial V}\right)_T$ \qquad when ideal gas: $H - H(0) = \frac{5}{2} nRT$\\
+                        $G - G(0) = - kT \ln{Q} + k TV \left(\frac{\partial \ln{Q}}{\partial V}\right)_T$ \qquad\\
+                         when ideal gas 
+                        $G - G(0) = - kT \ln{Q} + n R T = - n R T \ln{\frac{q_m}{N_A}}$\\
+                        The energy can be given from a series of contributions: $\epsilon_i = \epsilon_i^T + \epsilon_i^R + \epsilon_i^V + \epsilon_i^E$ (Translation, Rotation, Vibration, Electronic)
+                        $\rightarrow q = q^Tq^Rq^Vq^E$\\
+                        $q^T = V/\Lambda^3$ \qquad $\Lambda = h \left(\frac{\beta}{2 \pi m}\right)^{1/2}$\\
+                        $q^R = \sum_J{(2J + 1) e^{-\beta h c B J (J+1)}}$
+                        
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermodynamic relationships (Atkins)};
+            \end{tikzpicture}
+        \end{minipage}
+        
+    };
+    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Additions};
+\end{tikzpicture}
+
+
+
 \end{multicols*}
 \end{document}

@@ -1,0 +1,85 @@
+\section{Permutations and Combinations}
+
+Refer to \href{https://mathsisfun.com/combinatorics/combinations-permutations.html}{site} for more information and examples.
+
+\begin{itemize}
+    \item \textbf{Permutations}: A \textit{permutation} of a set is an arrangement of its elements in a specific order. The number of permutations depends on whether the objects are distinct or not.
+        
+    \begin{itemize}
+        \item \textbf{Permutations of Distinct Objects:}
+        \begin{equation} \label{permutation no repetition}
+            P(n, r) = \frac{n!}{(n - r)!}
+        \end{equation}
+        where \( n! \) (n factorial) is the product of all positive integers up to \( n \):
+        \begin{equation}
+            n! = n \times (n - 1) \times (n - 2) \times \cdots \times 1
+        \end{equation}
+        
+        \item \textbf{Permutations of Multisets:}
+        If a set contains duplicate elements, the formula adjusts to account for these repetitions. For a set with \( n \) total elements where there are \( n_1 \) of one kind, \( n_2 \) of another kind, etc., the number of distinct permutations is:
+        \begin{equation}
+            \frac{n!}{n_1! \, n_2! \, \cdots \, n_k!}
+        \end{equation}
+        where \( n = n_1 + n_2 + \cdots + n_k \).
+    \end{itemize}
+
+    \item \textbf{Combinations}: A \textit{combination} of a set is a selection of elements where the order does not matter.
+    \begin{itemize}
+        
+        \item \textbf{Combinations of Distinct Objects:}
+        For a set of \( n \) distinct objects, the number of ways to choose \( r \) objects without regard to order is given by:
+        \begin{equation}
+            C(n, r) = \binom{n}{r} = \frac{n!}{r! \, (n - r)!}
+        \end{equation}
+        where \( \binom{n}{r} \) is read as ``n choose r''.
+        
+        The correct way to think about this is to consider a general permutation done without repetitions \ref{permutation no repetition}, and divide by the number of total possible combinations ($r!$). Refer to the site for an example.
+
+
+        \item \textbf{Combinations with Repetition:}
+        When elements can be repeated, the number of combinations of \( r \) objects chosen from \( n \) options (with repetition allowed) is:
+        \begin{equation}
+            C_r(n) = \binom{n + r - 1}{r} = \frac{(n + r - 1)!}{r! \, (n - 1)!}
+        \end{equation}
+        where \( C_r(n) \) is the number of combinations with repetition.
+    \end{itemize}
+
+    \item \textbf{Important Formulas and Properties}
+    \begin{itemize}
+        \item \textbf{Factorials:}
+        \begin{equation}
+            n! = n \times (n - 1) \times \cdots \times 1
+        \end{equation}
+        
+        \item \textbf{Permutations of \( n \) Objects Taken \( r \) at a Time:}
+        \begin{equation}
+            P(n, r) = \frac{n!}{(n - r)!}
+        \end{equation}
+        
+        \item \textbf{Permutations of \( n \) Objects with Repetitions:}
+        For \( n \) total objects with \( n_1 \) of one kind, \( n_2 \) of another kind, etc.:
+        \begin{equation}
+            \frac{n!}{n_1! \, n_2! \, \cdots \, n_k!}
+        \end{equation}
+        
+        \item \textbf{Combinations of \( n \) Objects Taken \( r \) at a Time:}
+        \begin{equation}
+            C(n, r) = \binom{n}{r} = \frac{n!}{r! \, (n - r)!}
+        \end{equation}
+        
+        \item \textbf{Combinations with Repetition:}
+        \begin{equation}
+            C_r(n) = \binom{n + r - 1}{r} = \frac{(n + r - 1)!}{r! \, (n - 1)!}
+        \end{equation}
+        
+        \item \textbf{Binomial Theorem:}
+        For any positive integer \( n \):
+        \begin{equation}
+            (x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
+        \end{equation}
+    \end{itemize}
+    
+    \item \textbf{Applications}
+        Permutations and combinations are used in various fields including statistics, probability, and cryptography to analyze arrangements, selections, and probabilities in different contexts.
+
+\end{itemize}

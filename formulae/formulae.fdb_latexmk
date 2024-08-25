@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1722584714 "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" "formulae.pdf" "formulae" 1722584717 0
+["pdflatex"] 1724616481 "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" "formulae.pdf" "formulae" 1724616484 0
   "/home/maurizio/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1719405777 125478 55f56c7fb700bc9b88343d0cd0367c5e ""
   "/home/maurizio/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1700904399 24209861 330b2285ebc1741da95b8b92c54ba19f ""
+  "/home/maurizio/.miktex/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1700898690 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1700898668 1004 54797486969f23fa377b128694d548df ""
   "/home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1700898668 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1700898668 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -131,9 +132,10 @@
   "/home/maurizio/.miktex/texmfs/install/tex/latex/tools/calc.sty" 1700898694 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "/home/maurizio/.miktex/texmfs/install/tex/latex/tools/multicol.sty" 1700898694 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "/home/maurizio/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1700898709 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" 1710412648 76992 6b391d039bb2d88daf3c07f28fdfd709 ""
-  "formulae.aux" 1722584716 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "formulae.tex" 1710412648 76992 6b391d039bb2d88daf3c07f28fdfd709 ""
+  "/home/maurizio/Documents/GitHub/computational-biophysics-theory/formulae/formulae.tex" 1724616480 86002 976cc46c8225b5d65db22b78b2f67423 ""
+  "/home/maurizio/Downloads/table_quantities.png" 1723993764 203656 e52fb744aa4bc4d8cb74813cd507f9f3 ""
+  "formulae.aux" 1724616484 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "formulae.tex" 1724616480 86002 976cc46c8225b5d65db22b78b2f67423 ""
   (generated)
   "formulae.aux"
   "formulae.log"

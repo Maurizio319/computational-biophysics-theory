@@ -3,7 +3,13 @@
 \subsection{Gauss Integral}
 
 \begin{equation}
-    \int_{-\inf}^{+\inf}{a e^{-b x^2 + cx + d} dx} = a \sqrt{\frac{\pi}{b}} \text{exp}\left(\frac{c^2}{4b} + \right)
+    \int_{- \infty}^{+ \infty}{e^{-x^2} dx} = \sqrt{\pi}
+\end{equation}
+
+A more general formula is the following
+
+\begin{equation}
+    \int_{-\inf}^{+\inf}{a e^{-b x^2 + cx + d} dx} = a \sqrt{\frac{\pi}{b}} \text{exp}\left(\frac{c^2}{4b} + d \right)
 \end{equation}
 
 \textbf{Method to evaluate Gauss integrals with the Polar coordinates:}
@@ -37,6 +43,12 @@ and
 
 $$
 \Gamma(n) = (n-1)\Gamma(n-1)
+$$
+
+An important value is the following
+
+$$
+\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi}
 $$
 
 Another method is represented by the Laplace transform, which is described in chapter \ref{chap: lagrange}

@@ -195,6 +195,14 @@ INPUT /home/maurizio/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/maurizio/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/maurizio/Downloads/table_quantities.png
+INPUT /home/maurizio/Downloads/table_quantities.png
+INPUT /home/maurizio/Downloads/table_quantities.png
+INPUT /home/maurizio/Downloads/table_quantities.png
+OUTPUT formulae.pdf
+INPUT /home/maurizio/Downloads/table_quantities.png
+INPUT /home/maurizio/Downloads/table_quantities.png
+INPUT /home/maurizio/Downloads/table_quantities.png
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /home/maurizio/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
@@ -210,7 +218,7 @@ INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/ms
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT formulae.pdf
+INPUT /home/maurizio/.miktex/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /home/maurizio/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT formulae.aux
 INPUT /home/maurizio/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb

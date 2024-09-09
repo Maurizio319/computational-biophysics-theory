@@ -126,7 +126,7 @@
                         Bond bending: $U = \frac{k_\theta}{2}(\theta-\theta^0)^2$\\
                         Bond torsion: $U = k_\phi[1+\cos(n\phi-\phi^0)]$\\
                         Van der Waals interactions: $U = \biggl[\frac{a_{ij}}{r_{ij}^{12}}-\frac{b_{ij}}{r_{ij}^6}\biggr]$\\
-                        Electrostatic interactions: $U = \frac{332q_iq_j}{\epsilon r_{ij}}$\\
+                        Electrostatic interactions: $U = \frac{k q_iq_j}{r_{ij}}$\\
                         $\vec{p}_i = m_i\vec{v}_i = m\dot{\vec{r}}_i\qquad \vec{F}_i = m_i\ddot{\vec{r}}_i = \dot{\vec{p}}_i$\\
                         $\vec{x}(t) = \{\vec{r}_1(t),\dots, \vec{r}_N(t), \vec{p}_1(t), \dots, \vec{p}_N(t)\}$\\
                     \end{minipage}
@@ -487,6 +487,8 @@
                     \begin{minipage}{0.95\textwidth}
                         $A = E-\beta\left(\frac{\partial A}{\partial \beta}\right)_{N,V}$\\
                         $E = \langle\mathcal{H}\rangle = \frac{1}{N!h^{3N}}\frac{\int dx\mathcal{H}(x)e^{-\beta\mathcal{H}(x)}}{\int dxe^{-\beta\mathcal{H}(x)}}=-\frac{1}{Q(N, V, \beta)}\frac{\partial Q(N, V, \beta)}{\partial\beta} = -\frac{\partial\ln Q(N, V, \beta)}{\partial\beta}$\\
+                        $\frac{\partial^2}{\partial \beta^2} \ln{Q(N, V, \beta)} = <H(x)^2> - <H(x)>^2 = (\Delta E)^2$\\
+                        
                         $A + \frac{\partial\ln Q}{\partial\beta} + \beta\frac{\partial A}{\partial \beta} = 0\Rightarrow \ln Q(N, V, \beta) = -\beta A(N, V, \beta)$\\
                         $A(N, V, T) = -kT\ln Q(N, V, T)\qquad C_N = \frac{1}{N!h^{3N}}$\\
                         Energy $E = \langle\mathcal{H}\rangle = \frac{1}{Q}\frac{\partial Q}{\partial\beta} = 0$\\
@@ -512,11 +514,23 @@
                         \textbf{collection of N independent molecules}\\
                         Energy: $E_i = \epsilon_i(1) + \epsilon_i(2) + \dots + \epsilon_i(N)$\\
                         Partition function: $Q = \sum_i{e^{-\beta \epsilon_i(1) - \beta \epsilon_i(2) \dots - \beta \epsilon_i(N)}} = \left(\sum_i{e^{-\beta \epsilon_i}})\right)^N = q^N$\\
-                        $\frac{q^N}{N!}$ if undistinguishable particles
+                        $\frac{q^N}{N!}$ if undistinguishable particles\\
                     \end{minipage}
-                };
-                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Special cases};
-            \end{tikzpicture}
+                    };
+                    \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Special cases};
+                \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}    
+                    $H = -h \sum_{i=1}^N{S_i} - \sum_{i < j}{J_{ij} S_i S_j}$ \qquad $h = \mu H$ and $S_i = \pm 1$\\
+                    $M(T, H) = \mu \sum_{i=1}^{N}{<S_i>} = \mu \frac{\partial \ln{Z}}{\partial (\beta h)}$ magnetization \\
+                    $x(T) = \lim_{H \rightarrow 0} \left(\frac{\partial M}{\partial H}\right)$ magnetic susceptibility\\
+                    $G_{ij} = <S_i S_j> - <S_i> <S_j>$ spin correlation
+                    
+                    \end{minipage}
+                    };
+                    \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Ising model};
+                \end{tikzpicture}
         \end{minipage}
     };
     \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Canonical ensemble};
@@ -657,10 +671,19 @@
                         $Q(N, V, T)\propto Q(N_1, V_1, T)Q(N_2, V_2, T)$\\
                         $f(x_1) = I_{N_1}e^{\beta\mu N_1}e^{-\beta PV_1}C_{N_1}e^{-\beta\mathcal{H}_1(x_1)}\qquad I_{N_1} = \frac{1}{V_0N_1!h^{3N_1}}$\\
                         $\Delta(N, P, T) = \frac{1}{V_0}\int_0^{\infty}dV e^{-\beta PV}Q(N, V, T)$\\
-                        $G(N, P, \beta) = -\frac{\partial\ln\Delta(N, P, \beta)}{\partial \beta}-\beta\frac{\partial G}{\partial \beta}$\\
+                        $G = - kT \ln{\Delta}$\\
+                        $<H(x) + PV> = - \frac{\partial}{\partial \beta} \ln{\Delta(N, P, T)}$\\
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Isothermal-isobaric ensemble};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        Chain held by constant force $\Delta(N, P, T) = \sum_{\text{microstates}}{e^{\beta F L} e^{- \beta \epsilon}}$
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Special cases};
             \end{tikzpicture}
             \begin{tikzpicture}
                 \node [mybox] (box1){%
@@ -717,13 +740,25 @@
                     \begin{minipage}{0.95\textwidth}
                         $\tau(A)\left(\frac{\partial A}{\partial N}, V, T\right) = -PV\qquad \\
                         \tilde{A} (\mu, V, T) = A(N(\mu), V, T)- \mu N(\mu) \qquad d\tilde{A} = -PdV-SdT-Nd\mu $\\
+                        $a(v, T) = \frac{1}{N}A(N, \frac{V}{N}, T)$\\
+                        $P = -N \frac{\partial a}{\partial v}\frac{\partial v}{\partial V} = - \frac{\partial a}{\partial v}$\\
+                        To calculate $\frac{\partial P}{\partial \mu}$ you can use the technique written in Tuckerman $\frac{\partial P}{\partial \mu} = \frac{\partial P}{\partial v} \frac{\partial v}{\partial \mu}$\\
+                        $\mu = \frac{\partial A}{\partial N} = a(v, T) + N \frac{\partial a}{\partial v} \frac{\partial v}{\partial N} = a(v, T) - v \frac{\partial a}{\partial v}$\\
+                        $\frac{\partial \mu}{\partial v} = -v \frac{\partial^2 a}{\partial v^2}$ \\                       
                         $\mathcal{E}(\mu, V, T) = \sum\limits_{N=0}^{\infty}\frac{1}{N!h^{3N}}e^{\beta\mu N}\int dxe^{-\beta\mathcal{H}(x, N)} = \sum\limits_{N=0}^\infty e^{\beta\mu N}Q(N, V, T) = e^{\beta PV}$
                         $\frac{PV}{kT} = \ln\mathcal{E}(\mu, V, T)\qquad z (\text{fugacity}) = e^{\beta\mu}\qquad \mathcal{E}(z, V, T) = \sum\limits_{N=0}^{\infty}z^NQ(N, V, T)$\\
 
                         Grand potential: $\tilde{A} = kT \ln{\mathcal{E (\mu, T, V)}}$\\
 
                         $\langle N\rangle = \frac{1}{\mathcal{E}(\mu, V, T)}\sum\limits_{N=0}^{\infty}Ne^{\beta\mu N}Q(N, V, T) = kT\left(\frac{\partial}{\partial\mu}\ln\mathcal{E}(\mu, V, T)\right)_{V, T}$\\
+                        $(\Delta N)^2 = (kT)^2 \frac{\partial^2}{\partial \mu^2} \ln{Z(\mu, V, T)} = (kT)^2 \frac{\partial^2}{\partial \mu^2} \frac{PV}{kT}$\\
+                        
                         $\langle N\rangle = z\frac{\partial}{\partial z}\ln\mathcal{E}(z, V, T)$\\
+
+                        $\frac{\partial U}{\partial \beta} = - <E^2> + <E>^2 = - Var(E)$\\
+
+                        $(e^{- \beta \epsilon_a} + e^{- \beta \epsilon_b})^N = \sum_{n_a=0}^{n = N}{ \binom{N}{n_a}[e^{- n_a \beta \epsilon_a} e^{- (N-n_a) \beta \epsilon_b}]}$
+                        
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermodynamics};
@@ -747,6 +782,16 @@
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Particle number fluctuations};
+            \end{tikzpicture}
+
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        Partition function single site absorption with two possible energies; $Z_{site} = \sum_{n = 0}^1{e^{\beta \mu n} e^{- \beta \epsilon n}}$\\
+                        
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Special cases};
             \end{tikzpicture}
         \end{minipage}
     };
@@ -1037,16 +1082,79 @@
             \begin{tikzpicture}
                 \node [mybox] (box1){%
                     \begin{minipage}{0.95\textwidth}
-                        Conversion Celsius to Kelvin: $\theta/°C = T/K - 273.15$\\
+                        When heat is given to a system at constant Volume: $Q = n C_v \Delta T$\\
                         
+                        \textbf{Non-relativistic system made of free particles}
+                        
+                        Non-relativistic, non interacting particle system: speeds are low\\
+
+                        Quantum mechanics setting :\\
+                        $
+                        \epsilon (n_x, n_y, n_z) = \frac{h^2}{8 m L^2} (n_x^2 + n_y^2 + n_z^2)
+                        $ \qquad $n_x , n_y, n_z = 1,2,3 \dots$ \\
+
+                        Sackur-Tetrode eq.: $S = N k \left[\ln{\left(\frac{V}{N} \left(\frac{4 \pi m E}{3 N h^2}\right)^\frac{3}{2}\right)} + \frac{5}{2}\right]$
+                        
+                        It can be written $S(N, V, E) = S(N, V^{2/3}E)$ therefore $P = - \left(\frac{\partial E}{\partial V}\right)_{V, E} = \frac{2}{3} \frac{E}{V}$
+
+                        $C_p = \left(\frac{\partial (E + PV)}{\partial T}\right)_{NP} = \left(\frac{\partial (\frac{5}{2} n R T)}{\partial T}\right)_{NP} = \frac{5}{2} n R$\\
+                        
+                        $S_f - S_i = N k \ln{\frac{V_f}{V_i}}$ after isothermal change\\
+                        
+                        $(dE)_{\text{adiab}} = - \frac{2 E}{3 V} dV$ after adiabatic change\\
+                        
+                        Entropy of mixing $\Delta S = S_T - \sum_{i = 1}^2{S_ i}$\\
+
+
+                        \textbf{Particles in a container with V different from 0}\\
+                        $U = \sum_{i < j}{u (r_{ij})} + \sum_{i \alpha}{u_{wall}(z_{i \alpha}) + u_{wall}(L-z_{i \alpha})}$ where z is distance in a direction from wall for a particle\\
+                        
+
+                        \textbf{Non relativistic and extreme relativistic limit}\\
+                        $ u << c$ \qquad $<\frac{1}{2} m u^2> \sim \frac{3}{2} kT $\\
+                        
+                        $u \rightarrow c$ \qquad $< mc^2 > \sim 3 k T$\\
+
+                        \textbf{Virial equation}\\
+                        $P\bar{V} = RT (1 + \frac{B}{\bar{V}} + \frac{C}{\bar{V}^2} + \dots)$\\
+                        
+                        \textbf{System of particle with 2-body interactions}\\
+                        $\frac{P}{N k T} = 1 + \frac{1}{N d k T} < \sum_{i < j}{\vec{F}(\vec{r_{ij}}) \vec{r_{ij} }} >$\\
+
+                        \textbf{Paramagnetic system}\\
+                        $E = - \sum_{i = 1}^N{\vec{\mu_i} \vec{H}} =  - \mu H \sum_{i=1}^N{\cos{\theta_i}}$
+                        \\
+                        
+                        
+                        \textbf{Binomial distribution}
+                        $P(N) = \binom{N^{(0)}}{N^{(0)} - N} P^N (1-P)^{N^{(0) - N}}$\\
+                        Binomial factor: $\sum_{N=0}^\infty{\binom{N}{n} x^n} = (1+x)^N$\\
+                        
+
+                        $(\Delta N) = \sqrt{ np (1-p)}$
+                        
+                        $\bar{N} = n * p$\\
+                        
+                        
+                        \textbf{Poisson distribution}\\
+                        $P(n) = \frac{\lambda^n}{n!} e^{- \lambda}$ with $\lambda$ equal to the mean and the variance
+
+                        \textbf{da ricordare}\\
+                        in una situazione come questa\\
+                        
+                        $$
+                        N \int_0^{|\epsilon|}{dx \text{exp}(N \ln{f(x)})} = N \int_0^{|\epsilon|}{dx \text{exp}(N \ln{f(x)})} 
+                        $$
+                        Quando N tende a infinito posso supporre che l'unico termine utile della somma sia quello massimo --> trovare massimo di ln(f(x))
+
                     \end{minipage}
                 };
-                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Principles};
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Particular cases};
             \end{tikzpicture}
         \end{minipage}
         
     };
-    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Physical chemistry};
+    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Additions};
 \end{tikzpicture}
 \begin{tikzpicture}
     \node [mybox] (box){%
@@ -1065,12 +1173,34 @@
                         Binomial coeff when N to infinity: $\frac{N!}{n_1! n_2! \dots n_n!} = \frac{N^N}{n_1^{n_1}n_2^{n_2}\dots n_n^{n_n}}$ \\
                         Saddle point: when $H = f_{xx}(x_0, y_0) f_{yy}(x_0, y_0) - f_{xy}(x_0, y_0)^2$ < 0. \\
                         Variance: $(\Delta A)^2 = \langle (A - \langle A \rangle)^2 \rangle = \langle A^2 \rangle - \langle A \rangle^2$\\
+                        $z = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$\\
+                        $\frac{1}{(a -x)(b-x)} = \frac{1}{b-a}\left(\frac{1}{a-x} - \frac{1}{b-x}\right)$\\
+                        Gaussian: $g(x) = \frac{1}{\sigma \sqrt{2 \pi}} \text{exp}\left(- \frac{1}{2} \frac{(x- \mu)^2}{\sigma^2}\right)$\\
+                        Poisson: $P_\lambda(n) = \frac{\lambda^n}{n!} e^{-\lambda}$ per ogni $n \in N$
+                        with $\lambda$ = $E[Y] = Var(Y)$\\
+
+
+
+
                         \textbf{Geometric series and sequence}\\
                         Geometric sequence is collection of terms, series is the sum.\\
                         Nth value: $a_n = a_1 (r)^{n-1}$ where $r$ is the common ratio \\
                         Partial sum: $S_n = \frac{a_1[1-r^n]}{1-r}$\\
                         The geometric mean $\sqrt{n_a n_b}$ gives the value in the middle between a and b of the sequence\\
-                        Sum of infinite series: $S_\infty = \frac{a_1}{1-r}$ if series converges ($|r| < 1$), otherwise diverges
+                        Sum of infinite series: $S_\infty = \frac{a_1}{1-r}$ if series converges ($|r| < 1$), otherwise diverges\\
+                        $\sum_{n=0}^N{\binom{N}{n} x^n} = (1+x)^N$ \qquad $\sum_{n_1 = 0}^{N}{\binom{n_1}{N} a^{n_1} b^{N- n_1}} = (a + b)^N$\\
+
+                        \textbf{Stirling approximation}\\
+                        for large values of $n$: $n! \sim \sqrt{2 \pi n} \left(\frac{n}{e}\right)^n$\\
+                        $\ln{n!} \sim \frac{1}{2}\ln{2 \pi}^{1/2} n^{n + 1/2} e^{-n} = \frac{1}{2} \ln{2 \pi} + \left(n + \frac{1}{2}\right) \ln{n} - n$\\ 
+                        for very large values: $\ln{n!} \sim n \ln{n} - n$\\
+                        
+                        
+                        \textbf{Dirac delta function}\\
+                        $\delta(x) = \infty$ if $x=0$, 0 else \qquad $\int_{-\infty}^{+\infty}{dx \delta(x)} = 1$\\
+                        $\int_{-\infty}^{+\infty}{dx \delta(x) f(x)} = f(0)$ \qquad $\int_{-\infty}^{+\infty}{dx \delta(x-a) f(x)} = f(a)$\\
+                        $\delta(ax) = \frac{1}{|a|}\delta(x)$ \qquad $\delta(x^2 -a^2) = \frac{1}{2|a|} [ \delta(x-a) + \delta(x+a)]$
+                        
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Mathematics};
@@ -1085,50 +1215,139 @@
                         Specific heat (Heat capacity)\\
                         $C_V = \left(\frac{\partial E}{\partial T}\right)_{V, N} = T \left(\frac{\partial S}{\partial T}\right)_{V, N}$\\
                         $C_P = \left(\frac{\partial H}{\partial T}\right)_{P, N} = T \left(\frac{\partial S}{\partial T}\right)_{P, N}$\\
+                        $C_p - C_v = T \left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P$\\
 
-                        Thermal expansion: $\alpha = \frac{1}{V} \left(\frac{\partial V}{\partial T}\right)_{P,N}$\\
-                        
-                        Isotherm. compressibility: $\alpha = -\frac{1}{V} \left(\frac{\partial V}{\partial P}\right)_{T}$\\
-                        
+                        Thermal expansion: $\alpha = \frac{1}{V} \left(\frac{\partial V}{\partial T}\right)_{P,N}$\\            
+                        Isotherm. compressibility: $\alpha = -\frac{1}{V} \left(\frac{\partial V}{\partial P}\right)_{T}$\\  
                         Adiabatic compressibility: $\alpha = -\frac{1}{V} \left(\frac{\partial V}{\partial P}\right)_{S,N}$\\
                         
                         $k = 1.38 * 10^{-23} J K^{-1}$\\
+                        $R = 8.3145 \frac{J}{ mol K}$\\
+                        Temperature to Kelvin: $T(K) - 273.15 K$\\
+                        $p_{atm} = 760 Torr = 1 atm = 1.013*10^5 Pa$\\
+
+                        Vibrational number of modes linear : $3N - 5$; non-linear: $3N - 6$\\
+                        
                         
 
                         When quantities $x, y, z$ are mutually related\\
                         
                         $\left(\frac{\partial x}{\partial y}\right)_z = 1/\left(\frac{\partial y}{\partial x}\right)_z$\\
-                        $\left(\frac{\partial}{\partial z}\left(\frac{\partial y}{\partial x}\right)_z\right)_x = \left(\frac{\partial}{\partial x}\left(\frac{\partial y}{\partial z}\right)_x\right)_z $\\
+                        $\left(\frac{\partial}{\partial z}\left(\frac{\partial y}{\partial x}\right)_z\right)_x = \left(\frac{\partial}{\partial x}\left(\frac{\partial y}{\partial z}\right)_x\right)_z $ \qquad $ \left(\frac{\partial P}{\partial T}\right) = \left(\frac{\partial  S}{\partial V}\right)$\\
                         $\left(\frac{\partial x}{\partial y}\right)_z \left(\frac{\partial y}{\partial z}\right)_x \left(\frac{\partial z}{\partial x}\right)_y = -1$\\
                         $\left(\frac{\partial x}{\partial y}\right)_w = \left(\frac{\partial x}{\partial y}\right)_z + \left(\frac{\partial x}{\partial z}\right)_y \left(\frac{\partial z}{\partial y}\right)_w$ \\
-                        
+
+Van der Waals gas: $p = \frac{RT}{V_m - b} - \frac{a}{V_m^2}$\\
+
+
+\textbf{Entropy, Enthalpy and Gibbs}\\
+      
+\begin{itemize}
+    \item $S^\circ : \frac{J}{mol K}$
+    \item $H^\circ : \frac{J}{mol}$
+    \item $G^\circ : \frac{J}{mol}$
+
+\end{itemize}
+
+$
+\Delta G = \Delta H - T \Delta S
+$\\
+
+\textbf{Gibbs-Duhem}: $N d\mu = V dP - S dT$\\
+
+
+$\Delta H^\circ = \sum_p{n_p \Delta H^\circ_{f(p)}} - \sum_r{n_r \Delta H^\circ_{f(r)}}$
+where \(n_{(p, r)}\) represents the number of moles of products (p) or reactants (r), and \(\Delta H_f^\circ\) is the standard enthalpy of formation.\\
+
+$\Delta S^\circ = \sum_p{n_p \Delta S^\circ_{(p)}} - \sum_r{n_r \Delta S^\circ_{(r)}}$
+where \(n_{(p, r)}\) represents the number of moles of products (p) or reactants (r), and \(\Delta S^\circ\) is the standard entropy.\\
+
+
+$\Delta G^\circ = \sum{n_p \Delta G^{\circ}_{f (p)}} - \sum{n_r \Delta G^{\circ}_{f (r)}}$\\
+
+
+$\Delta G^\circ = -  RT \ln{k} \rightarrow k = e^{- \frac{\Delta G}{RT}}$\\
+
+ 
+$\Delta G = \Delta G^\circ + RT \ln{Q}$ Q is the reaction quotient, which is similar to 
+k but applies to the reaction under any set of conditions, not just at equilibrium. 
+Q is calculated the same way as 
+k, but with the actual concentrations or pressures at that moment.\\
+
+$\Delta G^\circ < 0 \rightarrow k > 1$\\ with k equilibrium coefficient
+$\Delta G^\circ = 0 \rightarrow k = 1$\\
+$\Delta G^\circ > 0 \rightarrow 0< k < 1$
+
                     \end{minipage}
                 };
                 \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermodynamic relationships};
             \end{tikzpicture}
+            
+            
+        \end{minipage}
+        
+    };
+    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Additions};
+\end{tikzpicture}
+\begin{tikzpicture}
+    \node [mybox] (box){%
+        \begin{minipage}{0.233\textwidth}
             \begin{tikzpicture}
                 \node [mybox] (box1){%
                     \begin{minipage}{0.95\textwidth}
+                        Conversion Celsius to Kelvin: $\theta/°C = T/K - 273.15$\\
                         $U - U(0) = - \left(\frac{\partial \ln{Q}}{\partial \beta}\right)_V$ \qquad
                         $S = \frac{U - U(0)}{T} + k \ln{Q}$ \qquad
                         $p = kT \left(\frac{\partial \ln{Q}}{\partial V}\right)_V$\\
                         $H - H(0) = -\left(\frac{\partial \ln{Q}}{\partial \beta}\right)_V + kTV \left(\frac{\partial \ln{Q}}{\partial V}\right)_T$ \qquad when ideal gas: $H - H(0) = \frac{5}{2} nRT$\\
                         $G - G(0) = - kT \ln{Q} + k TV \left(\frac{\partial \ln{Q}}{\partial V}\right)_T$ \qquad\\
                          when ideal gas 
-                        $G - G(0) = - kT \ln{Q} + n R T = - n R T \ln{\frac{q_m}{N_A}}$\\
+                        $G - G(0) = - kT \ln{Q} + n R T = - n R T \ln{\frac{q_m}{N_A}}$ \\
                         The energy can be given from a series of contributions: $\epsilon_i = \epsilon_i^T + \epsilon_i^R + \epsilon_i^V + \epsilon_i^E$ (Translation, Rotation, Vibration, Electronic)
                         $\rightarrow q = q^Tq^Rq^Vq^E$\\
-                        $q^T = V/\Lambda^3$ \qquad $\Lambda = h \left(\frac{\beta}{2 \pi m}\right)^{1/2}$\\
-                        $q^R = \sum_J{(2J + 1) e^{-\beta h c B J (J+1)}}$
-                        
+                        $q^T = V/\Lambda^3$ \qquad $\Lambda = h \left(\frac{\beta}{2 \pi m}\right)^{1/2}$ \qquad of a molecule of mass m in a container of vol. V\\
+                        $q^R = \sum_J{(2J + 1) e^{-\beta h c B J (J+1)}}$ \qquad rotational partition function\\
+                        $\frac{d}{dT} = \frac{d \beta}{d T}\frac{d}{d \beta} = -\frac{1}{kT^2} \frac{d}{d \beta} = -k \beta^2 \frac{d}{d \beta}$\\
+                        In case of ideal monoatomic gas $C_{V, m} = \frac{3}{2}R$ \qquad $C_{P, m} = \frac{5}{2}R$
                     \end{minipage}
                 };
-                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Thermodynamic relationships (Atkins)};
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Principles};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \node [mybox] (box1){%
+                    \begin{minipage}{0.95\textwidth}
+                        In a reaction like $A + 2B \rightarrow C + D$, you have 
+                        $$
+                         - \frac{d [A]}{dt} = - \frac{1}{2} \frac{d [B]}{dt} = \frac{d [C]}{dt} = \frac{d [D]}{dt}
+                        $$
+                        $v = k [A]^m [B]^n$ reaction law, dependent on reaction rates and concentrations. m and n cannot be determined with the reaction Stoichiometry\\
+                        $v = f(p_A, p_B, \dots)$ where $p$s are partial pressures\\
+                        
+                        - If $1^{st}$ reaction order ($A \rightarrow P$): $[A]_f = [A]_i e^{- k t}$ \qquad $t_{1/2} = \frac{\ln{2}}{k}$\\
+                        - If $2^{nd}$ reaction order ($A + B \rightarrow P$):  $v = k [A] [B]$ \qquad $kt = \frac{1}{[A]_0 + [B]_0} \ln{\frac{[A]_0 ([B]_0 - x)}{([A]_0 -x) [B]_0}}$\\
+                        - If $A \rightarrow P$ of $n^{th}$ order: $\frac{d[A]}{dt} = - k [A]^n$ \qquad $kt = \frac{1}{n-1} \left[\frac{1}{[A]_f^{n-1}} - \frac{1}{[A]_i^{n-1}}\right]$\\
+
+                        When \textbf{equilibrium}: 
+                        $k [A] = k' [B]$\\
+                        
+                        $K_{eq} = \frac{k}{k'}$ \qquad if multiple consecutive reactions $K_{eq} = \frac{k_a}{k_a'} X \frac{k_b}{k_b'} X \dots$\\
+                        
+                        Dependence on temperature of $k$\\
+                        $\ln{k} = \ln{A} - \frac{E_A}{RT}$ \qquad $k = Ae^{- E_A/RT}$ : Arrhenius law\\
+                        $\frac{1}{\tau} = f(k_a, k_b, concentrations)$ indicates the time of relaxation from a jump\\
+                        
+                        
+                        Ratio of two products produced both from A: $\frac{[P_2]}{[P_1]} = \frac{k_2}{k_1}$ 
+
+
+                    \end{minipage}
+                };
+                \node[fancytitle, inner sep = 1pt, right=10pt] at (box1.north west) {Reactions};
             \end{tikzpicture}
         \end{minipage}
         
     };
-    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Additions};
+    \node[fancytitle, inner sep = 1pt, right=10pt] at (box.north west) {Physical chemistry (Atkins)};
 \end{tikzpicture}
 
 
